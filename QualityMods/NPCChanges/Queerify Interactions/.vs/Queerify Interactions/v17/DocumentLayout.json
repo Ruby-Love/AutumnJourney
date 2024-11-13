@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\content.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\i18n\\default.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:i18n\\default.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Haley.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Haley.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\George.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\George.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\zSVE.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\zSVE.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Abigail.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Abigail.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Penny.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Penny.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Alex.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Alex.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Elliott.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Elliott.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Leah.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Leah.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Maru.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Maru.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Sebastian.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\Sebastian.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "manifest.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\manifest.json",
+              "RelativeDocumentMoniker": "manifest.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\manifest.json",
+              "RelativeToolTip": "manifest.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:17:10.161Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "content.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\content.json",
+              "RelativeDocumentMoniker": "content.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\content.json",
+              "RelativeToolTip": "content.json",
+              "ViewState": "AQIAAD0AAAAAAAAAAAApwFMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:19:32.331Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "default.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\i18n\\default.json",
+              "RelativeDocumentMoniker": "i18n\\default.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\i18n\\default.json",
+              "RelativeToolTip": "i18n\\default.json",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:37:28.252Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sebastian.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Sebastian.json",
+              "RelativeDocumentMoniker": "data\\Sebastian.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Sebastian.json",
+              "RelativeToolTip": "data\\Sebastian.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T23:38:15.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Maru.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Maru.json",
+              "RelativeDocumentMoniker": "data\\Maru.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Maru.json",
+              "RelativeToolTip": "data\\Maru.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T23:26:55.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Leah.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Leah.json",
+              "RelativeDocumentMoniker": "data\\Leah.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Leah.json",
+              "RelativeToolTip": "data\\Leah.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T23:25:24.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Haley.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Haley.json",
+              "RelativeDocumentMoniker": "data\\Haley.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Haley.json",
+              "RelativeToolTip": "data\\Haley.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T23:20:17.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Elliott.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Elliott.json",
+              "RelativeDocumentMoniker": "data\\Elliott.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Elliott.json",
+              "RelativeToolTip": "data\\Elliott.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T15:00:45.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Alex.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Alex.json",
+              "RelativeDocumentMoniker": "data\\Alex.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Alex.json",
+              "RelativeToolTip": "data\\Alex.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T15:20:50.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Penny.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Penny.json",
+              "RelativeDocumentMoniker": "data\\Penny.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Penny.json",
+              "RelativeToolTip": "data\\Penny.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T23:33:29.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "George.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\George.json",
+              "RelativeDocumentMoniker": "data\\George.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\George.json",
+              "RelativeToolTip": "data\\George.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T18:39:36.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Abigail.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Abigail.json",
+              "RelativeDocumentMoniker": "data\\Abigail.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\Abigail.json",
+              "RelativeToolTip": "data\\Abigail.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T15:18:47.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "zSVE.json",
+              "DocumentMoniker": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\zSVE.json",
+              "RelativeDocumentMoniker": "data\\zSVE.json",
+              "ToolTip": "C:\\Users\\tstri\\OneDrive\\Desktop\\Koda\u0027s Mod Managing\\Stardew\\Mods In The Making\\Queerify Interactions\\data\\zSVE.json",
+              "RelativeToolTip": "data\\zSVE.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T14:06:12.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

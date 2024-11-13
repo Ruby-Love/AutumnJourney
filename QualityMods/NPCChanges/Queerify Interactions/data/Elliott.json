@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "LogName": "Queerify_Vanilla_GenericMarried_Elliott",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "Entries": {
+        "Indoor_Night_Elliott": "{{i18n: Generic_Indoor_Night_Elliott_{{Random: 1,2,3,4}}}}"
+      }
+    },
+    /*{
+    "LogName": "Queerify_Vanilla_Married_Elliott",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarriageDialogueElliott",
+    "Entries": {}
+    },*/
+    {
+      "LogName": "Queerify_Vanilla_Elliott",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "Entries": {
+        "Event_boat1": "{{i18n: Elliott_Event_boat1{{PPAFFullyPlatonic_Elliott}}{{PPAFLovePortrait}}}}"
+      }
+    }
+    /*{
+    "LogName": "Queerify_Vanilla_Elliott_10Event",
+    "Action": "EditData",
+    "Target": "Data/Events/",
+    "Entries": {}
+    }*/
+  ]
+}

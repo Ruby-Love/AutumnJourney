@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    /*{
+    "LogName": "Queerify_Vanilla_GenericMarried_Maru",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarriageDialogue", "Characters/Dialogue/MarriageDialogueMaru"
+    "Entries": {      }
+    },*/
+    {
+      "LogName": "Queerify_Vanilla_Maru",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DialogueMaru",
+      "Entries": {
+        "married_Sebastian": "{{i18n: Maru_married_Sebastian{{PPAFFullyPlatonic_Sebastian}} |SiblingNoun={{lowercase:{{Random:{{GNMTSiblingNoun}}}}}}}}"
+      }
+    }
+    /*{
+    "LogName": "Queerify_Vanilla_Married_Maru",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarriageDialogueMaru",
+    "Entries": {      }
+    },
+    {
+    /*"LogName": "Queerify_Vanilla_Maru_10Event",
+    "Action": "EditData",
+    "Target": "Data/Events/",
+    "Entries": {      }
+    }*/
+  ]
+}

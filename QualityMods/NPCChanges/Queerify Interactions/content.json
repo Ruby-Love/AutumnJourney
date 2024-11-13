@@ -1,0 +1,282 @@
+{
+  "Format": "2.2.0",
+
+  "ConfigSchema": { //lets players toggle settings on and off
+    "Queerify_Abigail": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Alex": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Elliott": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_George": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Haley": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Leah": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Maru": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Penny": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Sebastian": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Vanilla"
+    },
+    "Queerify_Sophia": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "SVE"
+    },
+    "Queerify_Victor": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "SVE"
+    }
+  },
+
+  "DynamicTokens": [
+    {
+      "Name": "RandomizeGeorge",
+      "Value": "false"
+    },
+    {
+      "Name": "RandomizeGeorge",
+      "Value": "{{Random: true, false}}",
+      "When": { "HasMod |contains= Amaranthacyan.PlatonicPartnersandFriendships, Hana.GenderNeutralityMod": true }
+    },
+    {
+      "Name": "RandomizeHaley",
+      "Value": "false"
+    },
+    {
+      "Name": "RandomizeHaley",
+      "Value": "{{Random: true, false}}",
+      "When": { "HasMod |contains= tottlesfarm.heartyhaley, ClairesStoryofSeasons.GoodLuckHaley": true }
+    },
+    {
+      "Name": "GNMTElderAntiquatedNoun",
+      "Value": "{{Hana.GNMTokens/ElderAntiquatedNoun}}"
+    },
+    {
+      "Name": "GNMTSiblingNoun",
+      "Value": "{{Hana.GNMTokens/SiblingNoun}}"
+    },
+    {
+      "Name": "GNMTTitle",
+      "Value": "{{Hana.GNMTokens/Title}}"
+    },
+    {
+      "Name": "GNMTAdjective",
+      "Value": "{{Hana.GNMTokens/Adjective}}"
+    },
+    {
+      "Name": "PPAFLovePortrait",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFLovePortrait",
+      "Value": "_LoveEdits",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:UseLovePortraits": "false"
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Abigail",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Abigail",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:AbigailRelationshipType": "FullyPlatonic"
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Alex",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Alex",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:AlexRelationshipType |contains= FullyPlatonic, SexWithoutRomance": true
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Elliott",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Elliott",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+       "PPAF.Core/ConfigValue:ElliottRelationshipType |contains= FullyPlatonic, RomanceWithoutSex": true
+
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Haley",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Haley",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:HaleyRelationshipType": "FullyPlatonic"
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Leah",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Leah",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:LeahRelationshipType": "FullyPlatonic"
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Maru",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Maru",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:MaruRelationshipType": "FullyPlatonic"
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Penny",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Penny",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:PennyRelationshipType": "FullyPlatonic"
+      }
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Sebastian",
+      "Value": ""
+    },
+    {
+      "Name": "PPAFFullyPlatonic_Sebastian",
+      "Value": "_platonic",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:SebastianRelationshipType": "FullyPlatonic"
+      }
+    }
+  ],
+
+  "Changes": [
+    {
+      "LogName": "Queerify_Generic_Married",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "Entries": {
+        "Rainy_Night_3": "{{i18n: Generic_Rainy_Night_{{Random: 1,2}}}}",
+        "Indoor_Night_2": "{{i18n: Generic_Indoor_Night_{{Random: 1,2}}}}"
+      }
+    },
+    {
+      "LogName": "Queerify_Abigail_Include",
+      "Action": "Include",
+      "FromFile": "Data/Abigail.json",
+      "When": { "Queerify_Abigail": "true" }
+    },
+    {
+      "LogName": "Queerify_Alex_Include",
+      "Action": "Include",
+      "FromFile": "Data/Alex.json",
+      "When": { "Queerify_Alex": "true" }
+    },
+    {
+      "LogName": "Queerify_Elliott_Include",
+      "Action": "Include",
+      "FromFile": "Data/Elliott.json",
+      "When": { "Queerify_Elliott": "true" }
+    },
+    {
+      "LogName": "Queerify_George_Include",
+      "Action": "Include",
+      "FromFile": "Data/George.json",
+      "When": { "Queerify_George": "true" }
+    },
+    {
+      "LogName": "Queerify_Haley_Include",
+      "Action": "Include",
+      "FromFile": "Data/Haley.json",
+      "When": { "Queerify_Haley": "true" }
+    },
+    {
+      "LogName": "Queerify_Leah_Include",
+      "Action": "Include",
+      "FromFile": "Data/Leah.json",
+      "When": { "Queerify_Leah": "true" }
+    },
+    {
+      "LogName": "Queerify_Maru_Include",
+      "Action": "Include",
+      "FromFile": "Data/Maru.json",
+      "When": { "Queerify_Maru": "true" }
+    },
+    {
+      "LogName": "Queerify_Penny_Include",
+      "Action": "Include",
+      "FromFile": "Data/Penny.json",
+      "When": { "Queerify_Penny": "true" }
+    },
+    {
+      "LogName": "Queerify_Sebastian_Include",
+      "Action": "Include",
+      "FromFile": "Data/Sebastian.json",
+      "When": { "Queerify_Sebastian": "true" }
+    },
+    {
+      "LogName": "Queerify_SVE_Include",
+      "Action": "Include",
+      "FromFile": "Data/zSVE.json",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "HasMod |contains=JayJayDub.SVEGenderNeutralityMod": true
+      }
+    }
+  ]
+}

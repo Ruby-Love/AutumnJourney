@@ -1,0 +1,35 @@
+{
+  "Changes": [
+    /*{
+    "LogName": "Queerify_Vanilla_GenericMarried_Haley",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarriageDialogue"
+    "Entries": {     }
+    },
+    {
+    "LogName": "Queerify_Vanilla_Married_Haley",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarriageDialogueHaley"
+    "Entries": {     }
+    },*/
+    {
+      "LogName": "Queerify_Vanilla_Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "Entries": {
+        "FlowerDance_Accept": "{{i18n: Haley_FlowerDance_Accept}}",
+        "dating_Haley_memory_oneday": "{{i18n: Haley_dating_memory_oneday{{PPAFLovePortrait}}}}",
+        "married_Emily": "{{i18n: Haley_married_Emily{{PPAFFullyPlatonic_Haley}}}}"
+      },
+      "When": {
+        "RandomizeHaley": "false"
+      }
+    }
+    /*{
+    "LogName": "Queerify_Vanilla_Haley_10Event",
+    "Action": "EditData",
+    "Target": "Data/Events/",
+    "Entries": {},
+    }*/
+  ]
+}
