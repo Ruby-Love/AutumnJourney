@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        //PATCH TILESHEETS
+        
+        //ADD SPOUSE ROOM STRINGS
+        {
+            "Action": "EditData",
+            "Target": "Data/Strings/StringsFromMaps",
+            "Entries": {
+                "Caroline.SpouseRoom.2": "{{i18n:Caroline.SpouseRoom.02}}",
+                "Caroline.SpouseRoom.3": "{{i18n:Caroline.SpouseRoom.03}}",
+                "Caroline.SpouseRoom.4": "{{i18n:Caroline.SpouseRoom.04}}",
+                "Caroline.SpouseRoom.5": "{{i18n:Caroline.SpouseRoom.05}}",
+            }
+        }
+    ]
+}

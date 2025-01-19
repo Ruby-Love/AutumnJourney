@@ -1,0 +1,120 @@
+{
+    "Changes": [
+        //SPOUSE ROOM
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Caroline_SpouseRoom",
+            "FromFile": "Assets/Maps/CIS_Caroline_SpouseRoom.tmx"
+        },
+
+        //SPOUSE AREA
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Caroline_SpouseArea",
+            "FromFile": "Assets/Maps/CIS_Caroline_SpouseArea.tmx"
+        },
+
+        //NEW LOCATION: DIVORCE ROOM (WARPROOM)
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_CIS_CarolineDivorceRoom",
+            "FromFile": "Assets/Maps/CIS_CarolineDivorceRoom.tmx"
+        },
+
+        //NEW LOCATION:
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_CIS_DecoratedSunRoom",
+            "FromFile": "Assets/Maps/CIS_DecoratedSunRoom.tmx"
+        },
+
+        //Sunflower Field
+
+        {
+            "Action": "Load",
+            "Target": "Maps/Sunflower",
+            "FromFile": "Assets/Maps/Sunflower.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_CIS_SunflowerField",
+            "FromFile": "Assets/Maps/CIS_SunflowerField.tmx"
+        },
+
+        //NEW LOCATION DATA
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModID}}_CIS_DecoratedSunRoom":
+                    {
+                        "CreateOnLoad": {
+                            "AlwaysActive": true,
+                            "MapPath": "Maps/{{ModID}}_CIS_DecoratedSunRoom"
+                        },
+                    },
+                "{{ModID}}_CIS_CarolineDivorceRoom":
+                    {
+                        "CreateOnLoad": {
+                            "AlwaysActive": false,
+                            "MapPath": "Maps/{{ModID}}_CIS_CarolineDivorceRoom"
+                        },
+                    },
+                "{{ModID}}_CIS_OldPierreShopImage":
+                    {
+                        "CreateOnLoad": {
+                            "AlwaysActive": false,
+                            "MapPath": "Maps/{{ModID}}_CIS_CarolineDivorceRoom"
+                        },
+                    },
+                "{{ModID}}_CIS_SunflowerField":
+                    {
+                        "CreateOnLoad": {
+                            "AlwaysActive": false,
+                            "MapPath": "Maps/{{ModID}}_CIS_SunflowerField"
+                        }
+                    },
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Data/Events/{{ModID}}_CIS_DecoratedSunRoom",
+            "FromFile": "Data/blank.json"
+        },
+
+        //LIVE OLD PIERRE SHOP
+        {
+            "Action": "Load",
+            "Target": "Maps/CIS_SVEOldPierreShop",
+            "FromFile": "Assets/Maps/CIS_SVEOldPierreShop.tmx"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Maps/OldPierreShop",
+            "FromFile": "Assets/Maps/Misc/CIS_OldPierreShop.png"
+        },
+
+        //ACTORS
+        /*{
+            "Action": "Load",
+            "Target": "Characters/YoungCaroline",
+            "FromFile": "Assets/TemporaryActors/YoungCaroline.png"
+        },*/
+
+        //IMAGE OLD PIERRE SHOP
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_CIS_OldPierreShopImage",
+            "FromFile": "Assets/Maps/CIS_OldPierreShopImage.tmx",
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Maps/CIS_OldPierreShop_Image",
+            "FromFile": "Assets/Maps/CIS_OldPierreShop_Image.png",
+        },
+    ]
+}

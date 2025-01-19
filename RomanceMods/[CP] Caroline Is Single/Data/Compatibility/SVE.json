@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        //ADD SVE EVENTS COMPATIBILITY
+        //EVENTS
+        {
+            "Action": "Include",
+            "FromFile": "Data/Events/SVE.json, Data/Schedules/SVE.json",
+        },
+
+        //ADD SVE MATURE EVENTS COMPATIBILITY
+        {
+            "Action": "Include",
+            "FromFile": "Data/Events/MatureEvents.json",
+            "When": {
+                "SVEMatureEvents": "On"
+            }    
+        },
+    ]
+}

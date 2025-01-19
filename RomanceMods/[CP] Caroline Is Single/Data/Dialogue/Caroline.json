@@ -1,0 +1,238 @@
+{
+    "Changes": [
+        //EVENT CONVERSATION TOPIC
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "CarolineBook1": "{{i18n:Caroline.ConversationTopic.CarolineBook1}}",
+                "CarolineBook2": "{{i18n:Caroline.ConversationTopic.CarolineBook2}}",
+                "CarolineBook3": "{{i18n:Caroline.ConversationTopic.CarolineBook3}}",
+                "9062990_CarolineDivorceCT": "{{i18n:Caroline.ConversationTopic.9062990_CarolineDivorceCT}}",
+                "9062987_CarolineAbigailConfrontCT": "{{i18n:Caroline.ConversationTopic.9062987_CarolineAbigailConfrontCT}}",
+            }
+        },
+        
+        //CAROLINE DIALOGUE
+        //VANILLA DIALOGUE CHANGES
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                //SMALL INTRODUCTION CHANGES
+                "Introduction": "{{i18n:Caroline.VanillaDialogue.Introduction}}",
+                "Town_33_76": "{{i18n:Caroline.VanillaDialogue.Town_33_76}}",
+                "Sat2": "{{i18n:Caroline.VanillaDialogue.Sat2}}",
+                "Sat4": "{{i18n:Caroline.VanillaDialogue.Sat4}}",
+                "Sat": "{{i18n:Caroline.VanillaDialogue.Sat}}",
+                //1.6 NEW DIALOGUE
+                "RejectBouquet_NotDatable": "Oh you little rascal @, please stop teasing me like that would you? I'm already married.$h", 
+            }
+        },
+
+        //AFTER DIVORCE (VANILLA)
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "AfterDivorce": "true",
+            },
+            "Entries": {
+                "summer_Mon": "{{i18n:Caroline.AfterDivorceDialogue.summer_Mon}}",
+                "Thu": "{{i18n:Caroline.AfterDivorceDialogue.Thu}}",
+                "Sat": "{{i18n:Caroline.AfterDivorceDialogue.Sat}}",
+                "AcceptGift_(O)16": "{{i18n:Caroline.AfterDivorceDialogue.AcceptGift_(O)16}}",
+                "AcceptBouquet": "{{i18n:Caroline.AfterDivorceDialogue.AcceptBouquet}}",
+                "FlowerDance_Accept_Spouse": "{{i18n:Caroline.AfterDivorceDialogue.FlowerDance_Accept_Spouse}}",
+            },
+        },
+
+        //DATING
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Relationship:Caroline": "Dating",
+                "AfterDivorce": true,
+            },
+            "Entries": {
+                "Sat8": "{{i18n:Caroline.AfterDivorceDialogue.Sat8}}",
+                "Mon8": "{{i18n:Caroline.AfterDivorceDialogue.Mon8}}",
+                "summer_Mon10": "{{i18n:Caroline.AfterDivorceDialogue.summer_Mon10}}",
+                "winter_Mon10": "{{i18n:Caroline.AfterDivorceDialogue.winter_Mon10}}",
+                "fall_Sat8": "{{i18n:Caroline.AfterDivorceDialogue.fall_Sat8}}",
+                "fall_Tue10": "{{i18n:Caroline.AfterDivorceDialogue.fall_Tue10}}",
+                "dating_Caroline": "{{i18n:Caroline.AfterDivorceDialogue.dating_Caroline}}",
+                "spring_Mon10": "{{i18n:Caroline.AfterDivorceDialogue.spring_Mon10}}",
+                "summer_Tue8": "{{i18n:Caroline.AfterDivorceDialogue.summer_Tue8}}",
+                "summer_Tue10": "{{i18n:Caroline.AfterDivorceDialogue.summer_Tue10}}",
+                "winter_Tue10": "{{i18n:Caroline.AfterDivorceDialogue.winter_Tue10}}",
+                "winter_Fri10": "{{i18n:Caroline.AfterDivorceDialogue.winter_Fri10}}",
+                "fall_Sun10": "{{i18n:Caroline.AfterDivorceDialogue.fall_Sun10}}",                
+                //"spring_Sun10": ""
+            }
+        },
+
+
+        /*{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Relationship:Caroline": "Dating",
+                "AfterDivorce": true,
+                "DivorceType": "Jealous",
+            },
+            "Entries": {
+                "Sun8": "I wondered if Pierre is doing right now."
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Relationship:Caroline": "Dating",
+                "AfterDivorce": true,
+                "DivorceType": "Forgiven",
+            },
+            "Entries": {
+                
+            }
+        },*/
+
+        //ENGAGEMENT DIALOGUE
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries":{
+                "Caroline0": "{{i18n:Caroline.EngagementDialogue.Caroline0}}",
+                "Caroline1": "{{i18n:Caroline.EngagementDialogue.Caroline1}}",
+            },
+        },
+
+        //FESTIVAL DIALOGUE (8 TOTAL)
+
+        //SPRING 13 - EGGHUNT
+        {
+            "Action": "EditData",
+            "Target": "Data/Festival/spring13",
+            "Entries": {
+                "Caroline_spouse": "{{i18n:Caroline.festival.spring13.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.spring13.Caroline_spouse_y2}}",
+
+            },
+            "When": {
+                "AfterDivorce": true
+            }
+        },
+
+        //SPRING 24 - FLOWER DANCE
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Caroline": "{{i18n:Caroline.festival.spring24.Caroline}}",
+                "Caroline_y2": "{{i18n:Caroline.festival.spring24.Caroline_y2}}",
+                "Caroline_spouse": "{{i18n:Caroline.festival.spring24.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.spring24.Caroline_spouse_y2}}",
+
+            },
+            "When": {
+                "AfterDivorce": true
+            }
+        },
+
+        //FALL 16 - FAIR
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Caroline": "{{i18n:Caroline.festival.fall16.Caroline}}",
+                "Caroline_y2": "{{i18n:Caroline.festival.fall16.Caroline_y2}}",
+                "Caroline_spouse": "{{i18n:Caroline.festival.fall16.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.fall16.Caroline_spouse_y2}}",
+            },
+            "When": {
+                "AfterDivorce": true,
+            },
+        },
+
+        //FALL 27 - SPIRIT
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Caroline_y2": "{{i18n:Caroline.festival.fall27.Caroline_y2}}",
+                "Caroline_spouse": "{{i18n:Caroline.festival.fall27.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.fall27.Caroline_spouse_y2}}",
+            },
+            "When": {
+                "AfterDivorce": true,
+            },
+        },
+
+        //WINTER 8 - ICE
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Caroline_spouse": "{{i18n:Caroline.festival.winter8.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.winter8.Caroline_spouse_y2}}",
+
+            },
+            "When": {
+                "AfterDivorce": true,
+            },
+        },
+
+        //WINTER 25 - WINTER STAR
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Caroline_spouse": "{{i18n:Caroline.festival.winter25.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.winter25.Caroline_spouse_y2}}",                
+            },
+            "When": {
+                "AfterDivorce": true
+            }
+        },
+
+        //SUMMER 11 - LUAU
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Caroline": "{{i18n:Caroline.festival.summer11.Caroline}}",
+                "Caroline_spouse": "{{i18n:Caroline.festival.summer11.Caroline_spouse}}",
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.summer11.Caroline_spouse_y2}}",
+            },
+            "When": {
+                "AfterDivorce": true
+            }
+        },
+
+        //SUMMER 28 - MOONLIGHT JELLIES
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Caroline_spouse": "{{i18n:Caroline.festival.summer28_spouse}}", 
+                "Caroline_spouse_y2": "{{i18n:Caroline.festival.summer28_spouse_y2}}",
+            },
+            "When": {
+                "AfterDivorce": true
+            }
+        },
+
+        //MOVIE INVITE
+        {
+            "Action": "EditData",
+            "Target": "Strings/Characters",
+            "Entries": {
+                "MovieInvite_Spouse_Caroline": "{{i18n:Caroline.MovieInvite}}",
+            }
+        }
+    ]
+}

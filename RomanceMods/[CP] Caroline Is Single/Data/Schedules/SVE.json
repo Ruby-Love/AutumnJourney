@@ -1,0 +1,29 @@
+{
+    "Changes": [
+         //CAROLINE SVE SCHEDULES CHANGES
+         {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "When": {
+                "AfterDivorce": true
+            },
+            "Entries": {
+                "winter_3": null,
+                "winter_10": null,
+            },
+        },
+        
+        //CAROLINE SCHEDULE - PIERRE
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "When": {
+                "AfterDivorce": true
+            },
+            "Entries": {
+                "14": null,
+                "28": null,
+            },
+        },
+    ]
+}

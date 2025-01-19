@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        //PRECONDITION: HAS SVE, SVE MATURE EVENTS ON
+        //DELETE CAROLINE MATURE EVENTS AND REPLACE IT WITH POST-DIVORCE VERSION (IF PLAYER HASN'T SEEN THE PRE-DIVORCE VERSION YET)
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "When": {
+                "HasSeenEvent:currentplayer|contains=1000013": false,
+                "AfterDivorce": true,
+            },
+            "Entries": {
+                "1000013/t 2200 2600/f Caroline 2500 Abigail 2500/e 1000007/y 3/w sunny": null,
+            }
+        },
+
+        //DELETE PIERRE MATURE EVENTS AND REPLACE IT WITH POST-DIVORCE VERSION (IF PLAYER HASN'T SEEN THE PRE-DIVORCE VERSION YET)
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "HasSeenEvent:currentplayer|contains=1000028": false,
+                "AfterDivorce": true
+            },
+            "Entries": {
+                "1000028/f Pierre 2500/y 3/e 1000013/t 2200 2600/z winter": null,
+                //"9062994/f Pierre 2500/y 3/e 1000013 9062993/e 9062991/t 2200 2600/z winter": "none/end",
+            }
+        },
+        
+
+        //CAROLINE 8 HEARTS AND ABIGAIL 10 HEARTS
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "When": {
+                "HasSeenEvent:currentplayer|contains=1000013": false,
+                "AfterDivorce": true,
+            },
+            "Entries": {
+                //"9062993/f Caroline 2000 Abigail 2500/e 1000007/e 9062991/y 3/w sunny": "",
+            }
+        },
+
+        //CAROLINE 8 HEARTS AND ABIGAIL 10 HEARTS, YOU DATING/MARRIED BOTH?
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "When": {
+                "HasSeenEvent:currentplayer|contains=1000013": false,
+                "AfterDivorce": true,
+                "Relationship:Abigail": "Dating, Engaged, Married",
+                "Relationship:Caroline" : "Dating, Engaged, Married",
+            },
+            "Entries": {
+                //"9062993/f Caroline 2000 Abigail 2500/e 1000007/e 9062991/y 3/w sunny": "",
+            }
+        },*/
+
+        //ADD MAIL
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "9062995_WizardReveal": "{{i18n:9062995_WizardReveal.text}}[#]{{i18n:9062995_WizardReveal.title}}"
+            },
+            "When": {
+                "HasMod|contains=Nom0ri.RomRas": "false"
+            },
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                //Current Seen 9062991 (Aftermath): (TO-DO: Add post-marriage version)
+                "{{ModID}}_SVEMatureEvents_WizardReveal": {
+                    "ID": "{{ModID}}_SVEMatureEvents_WizardReveal",
+                    "Trigger": "DayStarted",
+                    "Condition": " PLAYER_NPC_RELATIONSHIP Current Caroline Married, ANY \"PLAYER_HAS_SEEN_EVENT Current 1000028\" \"PLAYER_HAS_SEEN_EVENT Current 9062991\" ",
+                    "Action": "AddMail Current 9062995_WizardReveal",
+                    "MarkActionApplied": true,
+                }
+            }
+        },
+
+        //WIZARD REVEAL ABOUT ABIGAIL TRUE IDENTITY
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/WizardHouse",
+            "When": {
+                "HasMod|contains=Nom0ri.RomRas": "false"
+            },
+            "Entries": {
+                //AFTER RECEIVE LETTER
+                "9062996/n 9062995_WizardReveal/p Wizard/e 1000028 1000023": "WizardSong/6 20/farmer 8 24 0 Caroline 9 23 0 Wizard 3 17 2 Marlon 6 19 2/skippable/move farmer 0 -1 0/pause 300/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.0}}\"/pause 100/move Wizard 5 0 2/pause 300/move Caroline 0 -1 0/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.1}}\"/stopMusic/playMusic musicboxsong/pause 500/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.2}}\"/pause 300/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.3}}\"/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.4}}\"/emote farmer 8/emote Caroline 16/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.5}}\"/faceDirection Wizard 0/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.6}}\"/faceDirection Wizard 2/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.7}}\"/pause 500/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.8}}\"/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.9}}\"/faceDirection farmer 0 true/emote farmer 16/emote Caroline 16/pause 500/faceDirection Caroline 2/shake Caroline 800/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.10}}\"/pause 500/move Wizard -5 0 2/pause 500/move farmer 0 -1 0/question null \"{{i18n:9062996.CarolineMatureEvent.11}}\"/faceDirection Caroline 0/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.12}}\"/pause 300/faceDirection Wizard 0/faceDirection Marlon 1/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.13}}\"/emote farmer 16/faceDirection Wizard 2/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.14}}\"/emote farmer 40/pause 500/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.15}}\"/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.16}}\"/shake Caroline 800/emote farmer 16/pause 800/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.17}}\"/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.18}}\"/pause 500/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.19}}\"/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.20}}\"/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.21}}\"/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.22}}\"/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.23}}\"/emote Caroline 40/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.24}}\"/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.25}}\"/pause 500/faceDirection Wizard 0/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.26}}\"/emote farmer 16/emote Caroline 16/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.27}}\"/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.28}}\"/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.29}}\"/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.30}}\"/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.31}}\"/pause 500/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.32}}\"/emote farmer 40/speak Caroline \"{{i18n:9062996.CarolineMatureEvent.33}}\"/pause 500/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.34}}\"/faceDirection Wizard 2/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.35}}\"/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.36}}\"/emote farmer 40/globalFade/viewport -100 -100/warp Caroline 100 100/warp farmer 100 100/warp Wizard 9 20/viewport 6 20/pause 500/pause 500/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.37}}\"/pause 1000/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.38}}\"/emote Marlon 16/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.39}}\"/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.40}}\"/pause 500/speak Wizard \"{{i18n:9062996.CarolineMatureEvent.41}}\"/speak Marlon \"{{i18n:9062996.CarolineMatureEvent.42}}\"/pause 500/end warpOut",
+
+
+                //HAVEN"T SEEN CAROLINE/PIERRE MATURE PIERRE EVENT
+                "9062997/n 9062995_WizardReveal/p Wizard/k 1000028 1000023/k 9062996": "WizardSong/6 20/farmer 8 24 0 Caroline 9 23 0 Wizard 3 17 2 Marlon 6 19 2/skippable/move farmer 0 -1 0/pause 300/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.0}}\"/pause 100/move Wizard 5 0 2/pause 300/move Caroline 0 -1 0/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.1}}\"/stopMusic/playMusic musicboxsong/pause 500/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.2}}\"/pause 300/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.3}}\"/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.4}}\"/emote farmer 8/emote Caroline 16/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.5}}\"/faceDirection Wizard 0/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.6}}\"/faceDirection Wizard 2/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.7}}\"/pause 500/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.8}}\"/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.9}}\"/faceDirection farmer 0 true/emote farmer 16/emote Caroline 16/pause 500/faceDirection Caroline 2/shake Caroline 800/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.10}}\"/pause 500/move Wizard -5 0 2/pause 500/move farmer 0 -1 0/question null \"{{i18n:9062997.CarolineMatureEvent.11}}\"/faceDirection Caroline 0/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.12}}\"/pause 300/faceDirection Wizard 0/faceDirection Marlon 1/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.13}}\"/emote farmer 16/faceDirection Wizard 2/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.14}}\"/emote farmer 40/pause 500/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.15}}\"/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.16}}\"/shake Caroline 800/emote farmer 16/pause 800/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.17}}\"/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.18}}\"/pause 500/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.19}}\"/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.20}}\"/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.21}}\"/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.22}}\"/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.23}}\"/emote Caroline 40/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.24}}\"/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.25}}\"/pause 500/faceDirection Wizard 0/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.26}}\"/emote farmer 16/emote Caroline 16/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.27}}\"/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.28}}\"/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.29}}\"/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.30}}\"/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.31}}\"/pause 500/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.32}}\"/emote farmer 40/speak Caroline \"{{i18n:9062997.CarolineMatureEvent.33}}\"/pause 500/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.34}}\"/faceDirection Wizard 2/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.35}}\"/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.36}}\"/emote farmer 40/globalFade/viewport -100 -100/warp Caroline 100 100/warp farmer 100 100/warp Wizard 9 20/viewport 6 20/pause 500/faceDirection Marlon 0/pause 500/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.37}}\"/pause 1000/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.38}}\"/emote Marlon 16/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.39}}\"/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.40}}\"/pause 500/speak Wizard \"{{i18n:9062997.CarolineMatureEvent.41}}\"/speak Marlon \"{{i18n:9062997.CarolineMatureEvent.42}}\"/pause 500/end warpOut",
+            }
+        }        
+    ]
+}

@@ -1,0 +1,349 @@
+  {
+"Format": "2.0.0",
+//CONFIG
+"ConfigSchema": {
+	"SeasonalCarolineNose":
+		{
+			"Description": "Patch Caroline's nose back to her seasonal sprites. Must be used with Seasonal Cuter Outfits or this will do nothing for you.",
+			"AllowValues": "On, Off",
+			"Default": "Off",
+			"Section": "Character & Portrait"
+		},
+	"CarolinePortraitsCompatibilitySwitch":
+		{
+			"Description": "Change every Caroline's dialogues and events into using only vanilla portraits, so you can use this mod with any portrait mod without issues.  It also turns off the my edited Caroline's seasonal portraits patch over the SCO. Only turn on if you want to use mod that change Caroline's portraits or your SCO has been overwritten.",
+			"AllowValues": "On, Off",
+			"Default": "Off",
+			"Section": "Character & Portrait"
+		},
+		
+	"CarolineEvents":
+		{	
+			"LogName": "Enable Caroline Events",
+			"Description": "Change vanilla and some SVE events scripts, add more Caroline events which add subtle hints and more flavors to Caroline's personality, mostly about her conflict with Abigail and Pierre, also some interaction with other villagers, too. Divorce events are not included. Turn it off if you want to keep the event's content untouched or better compatibity with other mod that also change these events. I'd recommend turn it on if you intend to play with Caroline divorce event subplot.",
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Section": "Events"
+		},
+
+	"DivorceEvents":
+		{
+			"LogName": "Enable Caroline Divorce Events",
+			"Description": "Add Caroline events that are more intense and eventually break her marriage. Off will disable all the divorce events, Vanilla will turn on this option and make her events play out normally, and the outcome of Caroline relationship with you will depend on your choices (possible outcomes are: she won't be datable, she will date you but her relationship with Pierre will become worse, she will date you and Pierre and her will forgive eachother).",
+			"AllowValues": "Vanilla, Off",
+			"Default": "Vanilla",
+			"Section": "Events"
+		},
+
+	"NewCaroline+":
+		{
+			"LogName": "Caroline Emergency Datable Switch",
+			"Description": "Due to how I coded the plot tracking process of this mod, Divorce Events may be prone to bugs if you use console commands like 'debug ebi' to try out different paths, and you could likely get stuck. After turning this option on, Caroline will become datable regardless of your choices in the final event. Note: This option takes effect immediately, and it won't work well with the rest of the mod because some of the dialogue won't change until you see certain events. I recommend you turn this off all the time unless the game is bugged.",
+			"AllowValues": "On, Off",
+			"Default": "Off",
+			"Section": "Events"
+		},
+
+	"SVEMatureEvents":
+		{
+			"LogName": "SVE Mature Events Overwrite",
+			"Description": "Allow change in SVE Mature Events, you also need to turn on Mature Events in SVE Config as well. Spoiler: it will change most of SVE Abigail-Wizard-Caroline subplot. Note: It will void out all of the SVE Mature Events and replace them with alternative versions with different events if ONLY after Caroline divorced, before that, the events are kept untouched. Turn it off if you have any compatibility issue with other mods that also change these events (i.e. RRRR, Romanceable Rasmodia, Romanceable Rasmodius,...).",
+			"AllowValues": "On, Off",
+			"Default": "Off",
+			"Section": "Other"
+		},
+},
+
+//DYNAMIC TOKENS FOR FESTIVAL OUTFITS - CUTER PATCH
+"DynamicTokens": [
+	//Witch/Wizard
+	//FESTIVAL TOKENS
+	{
+		"Name": "Festival",
+		"Value": "FlowerDance",
+		"When":
+		{
+			"DayEvent": "flower dance",
+			"LocationName": "Forest, temp"
+		}
+	},
+
+	{
+		"Name": "Festival",
+		"Value": "SpiritsEve",
+		"When":
+		{
+			"DayEvent": "spirit's eve",
+			"LocationName": "town,Custom_EastScarpeInn, Custom_EastScarpe, temp"
+		}
+	},
+
+	//INDOOR, OUTDOOR TOKENS
+	{
+		"Name": "IndoorOutdoor",
+		"Value": ""
+	},
+	{
+		"Name": "IndoorOutdoor",
+		"Value": "_Indoor",
+		"When":
+		{
+			"IsOutdoors": "false",
+			"Season": "winter",
+		}
+	},
+
+//DYNAMIC TOKEN TESTING
+	//CAROLINE DIVORCE CHECK
+	{
+		"Name": "Divorcable",
+		"Value": "{{DivorceEvents|contains=Vanilla,ChoicesMatter}}"
+	},
+
+	{
+		"Name": "AfterDivorce",
+		"Value": "{{HasSeenEvent:currentPlayer|contains=9062990}}"
+	},
+
+	//DIVORCE TYPE
+	{
+		"Name": "DivorceType",
+		"Value": "Normal",
+		"When": {
+			"HasSeenEvent:currentPlayer|contains=9062990": true,
+		}
+	},
+
+	/*{
+		"Name": "DivorceType",
+		"Value": "Unforgettable",
+		"When": {
+			"HasFlag:currentPlayer|contains=9062991_UnforgettableRouteFlag": true,
+			"HasFlag:currentPlayer|contains=9062992_CarolineForgivenMail": false,
+		}
+	},*/
+
+	{
+		"Name": "DivorceType",
+		"Value": "Jealous",
+		"When": {
+			"HasSeenEvent:currentPlayer|contains=9062992": false,
+			"Relationship:Caroline" : "Dating, Engaged, Married",
+		}
+	},
+	
+	{ //PIERRE AND CAROLINE FORGIVE EACHOTHER
+		"Name": "DivorceType",
+		"Value": "Forgiven",
+		"When": {
+			"HasSeenEvent:currentPlayer|contains=9062992": true,
+		},
+	},
+	
+],
+
+//CHANGES
+"Changes":[
+//NEW MAPS
+{	
+	"Action": "Include",
+	"FromFile": "Data/Maps/NewLocations.json, Data/Maps/MapPatches.json"
+},
+
+//CHANGE NPC DISPOSITIONS & SCHEDULES
+	//DEFAULT CHANGE
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Fields": {
+		  "Caroline": {
+			"SpouseRoom": {
+			  "MapAsset": "Custom_Caroline_SpouseRoom",
+			  "MapSourceRect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 6,
+				"Height": 9
+			  },
+			}
+		  }
+		}
+	  },
+  
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Fields": {
+		  "Caroline": {
+			"SpousePatio": {
+			  "MapAsset": "Custom_Caroline_SpouseArea",
+			  "MapSourceRect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 4,
+				"Height": 4
+			  },
+			}
+		  }
+		}
+	},
+
+	//DYNAMIC RELATIONSHIP & SCHEDULES CHANGES
+	{
+		"Action": "Include",
+		"FromFile": "Data/Schedules/Caroline.json"
+	},
+
+	//DATABLE AFTER DIVORCE
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"LogName": "Carolin Romanceable",
+		"Fields": {
+			"Caroline": {
+				"CanBeRomanced": true,
+				"LoveInterests": "",
+			}
+		},
+		"When": {
+			"HasSeenEvent:currentPlayer|contains=9062991": true, //CAROLINE AFTERTHOUGHT
+		},
+		"Update": "OnTimeChange",
+	},	
+
+    //FORCE DATABLE CHANGE IF NEWCAROLINE+ IS ON
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"LogName": "New Caroline +",
+		"Fields": {
+			"Caroline": {
+				"CanBeRomanced": true,
+				"LoveInterests": "",
+			}
+		},
+		"When": {
+			"NewCaroline+": "On",
+		},
+		"Update": "OnTimeChange"
+    },
+	
+	//LOAD VANILLA CAROLINE SPRITES
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Caroline, Characters/Caroline_Winter",
+		"FromFile": "Assets/Sprites/{{TargetWithoutPath}}_Vanilla.png",
+		"When": {
+			"HasMod|contains=Poltergeister.SeasonalCuteCharacters": false
+		}
+	},
+
+	{
+		"Action": "EditImage",
+		"Target": "Portraits/Caroline, Portraits/Caroline_Winter",
+		"FromFile": "Assets/Portraits/{{TargetWithoutPath}}_Vanilla.png",
+		"When": {
+			"HasMod|contains=Poltergeister.SeasonalCuteCharacters": false,
+			"CarolinePortraitsCompatibilitySwitch": "Off"
+		}
+	},
+
+	//LOAD CAROLINE WEDDING SPRITES AND DELETE DUPLICATE SPRITES
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Caroline, Characters/Caroline_Winter",
+		"FromFile": "Assets/Sprites/Caroline_Marriage.png",
+		"When": {
+					"DayEvent": "wedding",
+					"LocationName": "Town",
+					"Relationship:Caroline": "Engaged, Married",
+					"HasMod |contains=Poltergeister.SeasonalCuteCharacters": false
+				},
+		"Update": "OnLocationChange",
+		"Priority": "Late",
+	},
+
+	//SEASONAL CUTER OUTFITS PATCH
+	{
+		"Action": "Include",
+		"FromFile": "Data/Compatibility/SeasonalCuterOutfits.json",
+		"When": 
+			{
+				"HasMod |contains=Poltergeister.SeasonalCuteCharacters": true,
+				"CarolinePortraitsCompatibilitySwitch": "Off",
+			}
+	},
+
+	//INCLUDE NEW EVENTS
+	{
+		"Action": "Include",
+		"FromFile": "Data/Events/Events.json",
+		"When": {
+			"CarolineEvents": "On",
+		}
+	},
+	
+	//INCLUDE DIVORCE EVENTS
+	{
+		"Action": "Include",
+		"FromFile": "Data/Events/DivorceEvents.json",
+		"When": {
+			"Divorcable": true,
+		},
+	},
+
+	//ITEMS AND FURNITURES
+	{
+		"Action": "Include",
+		"FromFile": "Data/Items/Furniture.json, Data/Items/GiftTaste.json, Data/Items/Weapon.json"
+	},	
+
+	//SPOUSE ROOM & SPOUSE PATIO STRINGS
+	{
+		"Action": "Include",
+		"FromFile": "Data/Strings/SpouseRoom.json"
+	},
+
+	//DIALOGUE CHANGES
+	{
+		"Action": "Include",
+		"FromFile": "Data/Dialogue/Caroline.json, Data/Dialogue/Pierre.json",
+	},
+
+	//MARRIAGE DIALOGUE
+	{
+		"Action": "Include",
+		"FromFile": "Data/Dialogue/MarriageDialogue.json",
+	},	
+
+	//SVE Compatibility
+	{
+		"Action": "Include",
+		"FromFile": "Data/Compatibility/SVE.json",
+		"When": {
+			"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+
+	//Other Events
+	{
+		"Action": "Include",
+		"FromFile": "Data/Events/OtherEvents.json",
+		"When": {
+			"CarolineEvents": "On",
+		},
+	},	
+
+	//RomRasmodia Compatibility (Wizard to Witch)
+	{
+		"Action": "Include",
+		"FromFile": "Data/Compatibility/RomanceableRasmodia.json",
+		"When": {
+			"HasMod|contains=Nom0ri.RomRas": true,
+			"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+
+	]
+}
+

@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        //ADD DETAILS
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Caroline.SpouseRoom.1": "{{i18n:Caroline.SpouseRoom.1}}",
+                "Caroline.SpouseRoom.2": "{{i18n:Caroline.SpouseRoom.2}}",
+                "Caroline.SpouseRoom.3": "{{i18n:Caroline.SpouseRoom.3}}",
+                "Caroline.SpouseRoom.4": "{{i18n:Caroline.SpouseRoom.4}}",
+                "Caroline.SpouseRoom.5": "{{i18n:Caroline.SpouseRoom.5}}",
+            }          
+        }
+    ]
+}

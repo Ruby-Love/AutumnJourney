@@ -1,0 +1,35 @@
+{
+"Changes": [
+    //Robin & Caroline (Robin Is Single Revised and Caroline Is Single installed)
+    {
+        "Action": "EditData",
+        "Target": "Data/Events/Town",
+        "Entries": {
+            //PLAYER DONT HAVE RABBIT FOOT (COLD SHOWDER) (dating both Robin, Caroline, not married, 10 hearts, have rabbit's foot)
+            "906291001/e 195012 195019 195099 195013/o Robin/o Caroline/f Robin 2500/f Caroline 2500/D Caroline/D Robin/t 1800 2000/i 446": "playful/20 89/farmer -1000 -1000 2 Caroline -1000 -1000 2 Robin -1000 -1000 2/skippable/pause 500/warp farmer 20 89/playSound doorClose/pause 800/warp Caroline 10 86/playsound doorClose/move Caroline 0 4 right true/move farmer 0 1 right true/pause 2000/emote Caroline 16/speak Caroline \"{{i18n:906291001.CarolineRobin.0}}\"/faceDirection farmer left/move Caroline 9 0 right true/warp Robin 28 80/move Robin 0 10 left true/pause 2700/speak Caroline \"{{i18n:906291001.CarolineRobin.1}}\"/emote farmer 28/emote Robin 16/speak Robin \"{{i18n:906291001.CarolineRobin.2}}\"/faceDirection farmer down true/showFrame farmer 94 false/jump farmer 8/pause 1000/stopAnimation farmer/pause 500/faceDirection farmer right true/pause 500/move Robin -7 0 left/faceDirection farmer left true/speak Caroline \"{{i18n:906291001.CarolineRobin.3}}\"/faceDirection farmer right true/speak Robin \"{{i18n:906291001.CarolineRobin.4}}\"/pause 500/speak Caroline \"{{i18n:906291001.CarolineRobin.5}}\"/speak Robin \"{{i18n:906291001.CarolineRobin.6}}\"/emote farmer 40/pause 500/move farmer 0 1 up/move Robin -1 0 left//textAboveHead Caroline \"{{i18n:906291001.CarolineRobin.7}}\"/pause 3000/textAboveHead Robin \"{{i18n:906291001.CarolineRobin.8}}\"/pause 1000/emote farmer 40/pause 1500/message \"{{i18n:906291001.CarolineRobin.9}}\"/pause 500/quickQuestion {{i18n:906291001.CarolineRobin.10}}(break)switchEvent 906291001_Leave(break)switchEvent 906291001_Wait",
+
+            "906291001_Leave": "move farmer -4 0 left/faceDirection Caroline left true/speak Caroline \"{{i18n:906291001.CarolineRobin.Leave.0}}\"/jump farmer 4/startJittering/pause 500/stopJittering/faceDirection farmer right true/pause 800/move Robin 0 1 2/move Robin -1 0 3/speak Robin \"{{i18n:906291001.CarolineRobin.Leave.1}}\"/emote Robin 20/pause 500/faceDirection Caroline 2/emote Caroline 12/faceDirection Caroline 3/move Caroline -1 0 3/speak Caroline \"{{i18n:906291001.CarolineRobin.Leave.2}}\"/move Robin -1 0 3/speak Robin \"{{i18n:906291001.CarolineRobin.Leave.3}}\"/emote farmer 28/pause 500/message \"{{i18n:906291001.CarolineRobin.Leave.4}}\"/message \"{{i18n:906291001.CarolineRobin.Leave.5}}\"/emote farmer 40/pause 1000/quickQuestion {{i18n:906291001.CarolineRobin.Leave.6}}(break)switchEvent 906291001_BadEndHarem(break)906291001_BadEndHarem(break)switchEvent 906291001_YouAreSafe",
+
+            "906291001_Wait": "pause 500/speak Caroline \"{{i18n:906291001.CarolineRobin.Leave.0}}\"/speak Robin \"{{i18n:906291001.CarolineRobin.Leave.1}}\"/faceDirection Caroline down true/speak Caroline \"{{i18n:906291001.CarolineRobin.Leave.2}}\"/faceDirection Robin 2/textAboveHead Robin \"{{i18n:906291001.CarolineRobin.Leave.3}}\"/message \"{{i18n:906291001.CarolineRobin.Leave.4}}\"/message \"{{i18n:906291001.CarolineRobin.Leave.5}}\"/quickQuestion {{i18n:906291001.CarolineRobin.Leave.6}}(break)switchEvent 906291001_YouAreSafe(break)switchEvent 906291001_BadEndHarem",
+
+            "906291001_BadEndHarem": "friendship Caroline 10/friendship Robin 10/speak Robin \"{{i18n:906291001.CarolineRobin.BadEndHarem.0}}\"/emote Caroline 12/speak Caroline \"{{i18n:906291001.CarolineRobin.BadEndHarem.1}}\"/message \"{{i18n:906291001.CarolineRobin.BadEndHarem.2}}\"/speak Robin \"{{i18n:906291001.CarolineRobin.BadEndHarem.3}}\"/emote farmer 28/pause 500/question null \"{{i18n:906291001.CarolineRobin.BadEndHarem.4}}\"/pause 800/message \"{{i18n:906291001.CarolineRobin.BadEndHarem.5}}\"/speak Robin \"{{i18n:906291001.CarolineRobin.BadEndHarem.6}}\"/speak Caroline \"{{i18n:906291001.CarolineRobin.BadEndHarem.7}}\"/pause 500/speak Robin \"{{i18n:906291001.CarolineRobin.BadEndHarem.8}}\"/startJittering/pause 300/fade/viewport -1000 -1000/stopJittering/message \"{{i18n:906291001.CarolineRobin.BadEndHarem.9}}\"/message \"{{i18n:906291001.CarolineRobin.BadEndHarem.10}}\"/pause 1000/message \"{{i18n:906291001.CarolineRobin.BadEndHarem.11}}\"/mail 906291001_RobinMailBad/mail 906291001_CarolineMailBad/end bed",
+
+            "906291001_YouAreSafe": "friendship Caroline 10/friendship Robin 10/speak Caroline \"{{i18n:906291001.CarolineRobin.YouAreSafe.0}}\"/speak Robin \"{{i18n:906291001.CarolineRobin.YouAreSafe.1}}\"/fade/viewport -1000 -1000/pause 1000/message \"{{i18n:906291001.CarolineRobin.YouAreSafe.2}}\"/pause 1000/message \"{{i18n:906291001.CarolineRobin.YouAreSafe.3}}\"/mail 906291001_RobinMailSafe/mail 906291001_CarolineMailSafe/end bed"
+        },
+        "When": {
+            "HasMod|contains=Hitme.RobinIsSingleRevised": "true",
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/mail",
+        "Entries": {
+            "906291001_RobinMailBad": "{{i18n:906291001_RobinMailBad.text}} %item object 709 20 %% ^^ Love, Robin.[letterbg 1][#]{{i18n:906291001_RobinMailBad.title}}",
+            "906291001_CarolineMailBad": "{{i18n:906291001_CarolineMailBad.text}} %item object 201 1 %% ^^ Your dearest, Caroline.[letterbg 1][#]{{i18n:906291001_CarolineMailBad.title}}",
+            "906291001_RobinMailSafe": "{{i18n:906291001_RobinMailSafe.text}} %item object 709 20 %% Love, Robin.[letterbg 1][#]{{i18n:906291001_RobinMailSafe.title}}",
+            "906291001_CarolineMailSafe": "{{i18n:906291001_CarolineMailSafe.text}} %item object 205 2 %%[letterbg 1][#]{{i18n:906291001_CarolineMailSafe.title}}",            
+        }
+    },    
+]
+}

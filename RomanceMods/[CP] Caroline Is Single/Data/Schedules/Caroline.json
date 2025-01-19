@@ -1,0 +1,159 @@
+{
+    "Changes": [
+        //ADD ACTUAL COMMUNITY GARDEN HELP TO CAROLINE
+
+        /*
+        "rain": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 caroline_read/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "fall_25": "800 SeedShop 37 6 3/1000 SeedShop 27 7 3 \"Strings\\schedules\\Caroline:fall_25.000\"/1200 Hospital 13 14 0 \"Strings\\schedules\\Caroline:fall_25.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Caroline:fall_25.002\"/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "winter_16": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 Beach 24 32 3 \"Strings\\schedules\\Caroline:winter_16.000\"/2330 SeedShop 25 4 1 caroline_sleep",
+        "Tue": "800 SeedShop 22 14 0 \"Strings\\schedules\\Caroline:Tue.000\"/1030 SeedShop 24 17 3/1300 SeedShop 24 21 0 caroline_exercise/1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:Tue.001\"/1810 SeedShop 34 5 0 \"Strings\\schedules\\Caroline:Tue.002\"/2100 SeedShop 25 4 1 caroline_sleep",
+        "Fri": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Wed": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 Town 23 27 1/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Sat": "800 SeedShop 37 6 3/1100 CommunityCenter 26 9 0/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+        "Sun": "900 SeedShop 22 5 2/1040 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1330 SeedShop 15 23 0/1440 Town 48 33 2/1830 SeedShop 27 7 1/2100 SeedShop 25 4 1 caroline_sleep",
+        "spring": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 SeedShop 15 23 0/1330 Town 23 71 2/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+        */
+        //CHANGE SCHEDULES AFTER DIVORCE (VANILLA)
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "When": {
+                "AfterDivorce": true,
+            },
+            "Entries":
+                {
+                    //DIVORCE
+                    "rain": "700 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "fall_25": "1200 Hospital 13 14 0 \"Strings\\schedules\\Caroline:fall_25.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Caroline:fall_25.002\"/1600 Town 23 27 1/2000 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "winter_16": "1330 Town 23 71 2/1600 Beach 24 32 3 \"Strings\\schedules\\Caroline:winter_16.000\"/2100 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "Tue": "1030 SeedShop 24 17 3/1300 SeedShop 24 21 0 caroline_excercise/1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:divorce_Tue.001\"/1810 SeedShop 34 5 0 \"Strings\\schedules\\Caroline:Tue.002\"/2000 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "Wed": "1200 Town 23 27 1/1830 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2130 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "Fri": "1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1900 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2000 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "Sat": "MAIL IsCommunityCenterComplete/GOTO marriage_Wed/1100 CommunityCenter 26 9 0/1500 Town 23 27 1/1900 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2130 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "Sun": "1440 Town 48 33 2/1830 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2000 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "spring": "1330 Town 23 71 2/1600 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                    "DesertFestival_1": "900 Desert 30 43 2 \"Strings\\1_6_Strings:DesertFestival_Caroline\"/2450 {{ModID}}_CIS_CarolineDivorceRoom 3 3 2",
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "Entries":
+                {
+                    //MARRIAGE
+                    "marriage_fall_25": "1200 Hospital 13 14 0 \"Strings\\schedules\\Caroline:fall_25.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Caroline:fall_25.002\"/1600 Town 23 27 1/2000 bed",
+                    "marriage_winter_16": "1330 Town 23 71 2/1600 Beach 24 32 3 \"Strings\\schedules\\Caroline:winter_16.000\"/2100 bed",
+                    "marriage_Tue": "1030 SeedShop 24 17 3/1300 SeedShop 24 21 0 caroline_excercise/1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:divorce_Tue.001\"/1810 SeedShop 34 5 0 \"Strings\\schedules\\Caroline:Tue.002\"/2100 bed",
+                    "marriage_Wed": "1200 Town 23 27 1/1830 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2130 bed",
+                    "marriage_Fri": "1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:marriage_Fri.000\"/1700 Town 23 27 1/1900 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2000 bed",
+                    "marriage_Sat": "MAIL IsCommunityCenterComplete/GOTO marriage_Wed/1100 CommunityCenter 26 9 0/1500 Town 23 27 1/1900 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2130 bed",
+                    "marriage_Sun": "1440 Town 48 33 2/1830 Forest 70 50 2 \"Strings\\schedules\\Caroline:divorce_Forest\"/2000 bed",
+                    "marriage_spring": "1330 Town 23 71 2/1600 bed",
+                    "marriage_DesertFestival_1": "900 Desert 30 43 2 \"Strings\\1_6_Strings:DesertFestival_Caroline\"/2450 bed"
+                },
+        },    
+        
+        //LOCATION
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Caroline": {
+                    "Home": [
+                        {
+                          "Id": "Default",
+                          "Condition": "!PLAYER_HAS_SEEN_EVENT Current 9062990",
+                          "Location": "SeedShop",
+                          "Tile": {
+                            "X": 22,
+                            "Y": 5
+                          },
+                          "Direction": "down"
+                        }
+                    ],    
+                }
+            },
+        },*/
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Caroline": {
+                    "Home": [
+                        {
+                          "Id": "Default",
+                          "Condition": null,
+                          "Location": "Hitme.CarolineIsSingle_CIS_CarolineDivorceRoom",
+                          "Tile": {
+                            "X": 3,
+                            "Y": 3
+                          },
+                        }
+                    ],    
+                }
+            },
+            "When": {
+                "AfterDivorce": true,
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Caroline": {
+                    "FlowerDanceCanDance": true
+                },
+            },
+            "When": {
+                "AfterDivorce": true,
+            }
+        },      
+
+        //ADD STRINGS
+        //VANILLA
+        //AFTER DIVORCE AND HAVEN'T SEEN FORGIVEN EVENT YET
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Caroline",
+            "When": {
+                "AfterDivorce": true,
+            },
+            "Entries": {
+                "divorce_Forest": "{{Random: {{i18n:Caroline.divorce_Forest.01}} @@ {{i18n:Caroline.divorce_Forest.02}} |inputSeparator=@@ }}",
+                "divorce_Tue.001": "{{i18n:Caroline.divorce_Tue.001.1}}",
+                "marriage_Fri.000": "{{i18n:Caroline.marriage_Fri.000}}"
+            }
+        },
+
+        //AFTER DIVORCE AND IS DATING
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Caroline",
+            "When": {
+                "AfterDivorce": true,
+                "DivorceType": "Jealous",
+            },
+            "Entries": {
+                "divorce_Forest": "{{Random: {{i18n:Caroline.divorce_Forest.03}} @@ {{i18n:Caroline.divorce_Forest.04}} |inputSeparator=@@ }}",
+                "divorce_Tue.001": "{{i18n:Caroline.divorce_Tue.001.1}}"
+            }
+        },
+
+        //AFTER DIVORCE AND SEEN FORGIVEN EVENT
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Caroline",
+            "When": {
+                "AfterDivorce": true,
+                "DivorceType": "Forgiven",
+            },
+            "Entries": {
+                "divorce_Forest": "{{Random: {{i18n:Caroline.divorce_Forest.05}} @@ {{i18n:Caroline.divorce_Forest.06}} |inputSeparator=@@ }}",
+                "divorce_Tue.001": "{{i18n:Caroline.divorce_Tue.001.2}}"
+            }
+        },
+    ]
+}

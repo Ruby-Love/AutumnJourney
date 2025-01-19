@@ -1,0 +1,83 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Tilesheets/Hitme.CarolineIsSingle_CarolineWeapon",
+            "FromFile": "Assets/Items/Weapon/CarolineWeapon.png"
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Hitme.CarolineIsSingle_CarolineWeapon": {
+                    "Name": "Caroline's Pruning Shears",
+                    "DisplayName": "{{i18n:Caroline.Weapon.name}}",
+                    "Description": "{{i18n:Caroline.Weapon.description}}",
+                    "Type": 1,
+                    "MinDamage": 22,
+                    "MaxDamage": 29,
+                    "Knockback": 0.2,
+                    "Speed": -3,
+                    "Precision": 10,
+                    "Defense": 0,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1,
+                    "AreaOfEffect": 1,
+                    "CritChance": 0.07,
+                    "CritMultiplier": 2.5,
+                    "CanBeLostOnDeath": true,
+                    "Texture": "Tilesheets\\Hitme.CarolineIsSingle_CarolineWeapon",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+            },
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "DesertFestival_Caroline",
+                "Items"
+            ],
+            "Entries": {
+                "Hitme.CarolineIsSingle_CarolineWeapon": {
+                    "ActionsOnPurchase": null,
+                    "CustomFields": null,
+                    "TradeItemId": "CalicoEgg",
+                    "TradeItemAmount": 70,
+                    "Price": 0,
+                    "ApplyProfitMargins": null,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "(W)Hitme.CarolineIsSingle_CarolineWeapon",
+                    "ItemId": "(W)Hitme.CarolineIsSingle_CarolineWeapon",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                  },
+            }
+        },
+    ],
+}

@@ -1,0 +1,81 @@
+{
+	"Changes": [    
+	/*
+	//DEMETRIUS	
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Demetrius",
+        "Entries": {
+			"Introduction": "{{i18n:Demetrius.Introduction}}",
+			"summer_Thu": "{{i18n:Demetrius.summer_Thu}}",
+			"Fri4": "{{i18n:Demetrius.Fri4}}",
+			"Thu": "{{i18n:Demetrius.Thu}}",
+			"winter_Tue": "{{i18n:Demetrius.winter_Tue}}",
+			"Mon_inlaw_Robin": "{{i18n:Demetrius.Mon_inlaw_Robin}}",
+			"winter_Thu_inlaw_Robin": "{{i18n:Demetrius.winter_Thu_inlaw_Robin}}",
+            },
+		"When": {
+			"RobinRelationship": "Daughter",
+			}		
+        },
+
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"Entries": {
+			"Introduction": "{{i18n:Demetrius.Friend.Introduction}}",
+			"summer_Thu": "{{i18n:Demetrius.Friend.summer_Thu}}",
+			"Fri4": "{{i18n:Demetrius.Friend.Fri4}}",
+			"Thu": "{{i18n:Demetrius.Friend.Thu}}",
+			"winter_Tue": "{{i18n:Demetrius.Friend.winter_Tue}}",
+			"Mon_inlaw_Robin": "{{i18n:Demetrius.Friend.Mon_inlaw_Robin}}",
+			"summer_Wed_2": "{{i18n:Demetrius.Friend.summer_Wed_2}}",
+			"winter_Thu_inlaw_Robin": "{{i18n:Demetrius.Friend.winter_Thu_inlaw_Robin}}",
+
+            },
+		"When": {
+			"RobinRelationship": "Friend",
+			}
+		},
+
+		//MARU
+        {
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries":{
+			"Tue": "{{i18n:Maru.Tue}}",
+			"Fri4": "{{i18n:Maru.Fri4}}",
+			"summer_Tue": "{{i18n:Maru.summer_Tue}}",
+			"Wed_inlaw_Robin": "{{i18n:Maru.Wed_inlaw_Robin}}",
+			},
+		"When": {
+			"RobinRelationship": "Daughter",
+		}
+	    },
+
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries":{
+			"Tue": "{{i18n:Maru.Friend.Tue}}",
+			"Fri4": "{{i18n:Maru.Friend.Fri4}}",
+			"summer_Tue": "{{i18n:Maru.Friend.summer_Tue}}",
+			"Wed_inlaw_Robin": "{{i18n:Maru.Friend.Wed_inlaw_Robin}}",
+		},
+		"When": {
+			"RobinRelationship": "Friend",
+		}
+		},
+
+		//SEBASTION
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries":{
+			"fall_Tue6": "{{i18n:Sebastian.fall_Tue6}}",
+			"winter_Tue6": "{{i18n:Sebastian.winter_Tue6}}",
+			"Fri_inlaw_Robin": "{{i18n:Sebastian.Fri_inlaw_Robin}}",
+			},
+		}*/		
+    ]
+}  

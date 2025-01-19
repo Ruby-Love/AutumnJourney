@@ -1,0 +1,23 @@
+{
+   "Name": "Caroline Is Single",
+   "Author": "Hitme",
+   "Version": "1.0.7", 
+   "Description": "Caroline Is Single, with immersive divorce story.",
+   "UniqueID": "Hitme.CarolineIsSingle",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:21711"],
+   "Dependencies": [
+      {
+         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+         "IsRequired": false,
+      },
+      {
+         "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+         "IsRequired": false, 
+      },
+   ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+      "MinimumVersion": "1.0.0" 
+   }
+}

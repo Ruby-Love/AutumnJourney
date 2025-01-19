@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        //ADD NPCWARP TO CAROLINE DIVORCE ROOM
+        {
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "TextOperations": [ 
+                {
+                "Operation": "Append",
+                "Target": ["MapProperties", "NPCWarp"],
+                 "Value": "12 8 {{ModID}}_CIS_CarolineDivorceRoom 3 3",
+                 "Delimiter": " ",
+                }
+            ],
+        }
+    ]
+}

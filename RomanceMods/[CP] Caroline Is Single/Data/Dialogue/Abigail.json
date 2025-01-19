@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        //Is dating Caroline
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Relationship:Caroline": "Dating",
+            },
+            "Entries": {
+                ""
+            },
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Relationship:Caroline": "Married"
+            },
+            "Entries": {
+            }
+        }
+    ]
+}

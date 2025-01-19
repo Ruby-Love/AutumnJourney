@@ -1,0 +1,49 @@
+{
+"Changes": [
+    //GRUMPY WELCOME IF PIERRE IS JEALOUS
+    {
+        "Action": "EditData",
+        "Target": "Strings/SpeechBubbles",
+        "When": {
+            "DivorceType": "Jealous",
+            "AfterDivorce": true,
+        },
+        "Entries": {
+            "SeedShop_Pierre_Winter": "{{i18n:Pierre.SeedShop_Pierre_Winter}}",
+            "SeedShop_Pierre_NotWinter": "{{i18n:Pierre.SeedShop_Pierre_NotWinter}}",
+            "SeedShop_Pierre_Summer": "{{i18n:Pierre.SeedShop_Pierre_Summer}}",
+            "SeedShop_Pierre_NotSummer": "{{i18n:Pierre.SeedShop_Pierre_NotSummer}}",
+            "SeedShop_Pierre_Greeting1": "{{i18n:Pierre.SeedShop_Pierre_Greeting1}}",
+            "SeedShop_Pierre_Greeting2": "{{i18n:Pierre.SeedShop_Pierre_Greeting2}}",
+            "SeedShop_Pierre_Raining": "{{i18n:Pierre.SeedShop_Pierre_Raining}}",
+            "SeedShop_Pierre_NotRaining": "{{i18n:Pierre.SeedShop_Pierre_NotRaining}}",
+            "SeedShop_Pierre_RareGreeting": "{{i18n:Pierre.SeedShop_Pierre_RareGreeting}}",            
+        }
+    },
+
+    //POST-DIVORCE PIERRE DIALOGUE (JEALOUS PATH)
+    {
+        "Action":"EditData",
+        "Target": "Characters/Dialogue/Pierre",
+        "When": {
+            "AfterDivorce": true,
+        },
+        "Entries": {
+            "winter_Wed": "{{i18n:Pierre.winter_Wed}}",
+        }
+    },
+
+    //POST-DIVORCE PIERRE DIALOGUE (FORGIVEN PATH)
+    {
+        "Action":"EditData",
+        "Target": "Characters/Dialogue/Pierre",
+        "When": {
+            "DivorceType": "Forgiven",
+            "AfterDivorce": true,
+        },
+        "Entries": {
+            "winter_Wed": "{{i18n:Pierre.Forgiven.winter_Wed}}",
+        }
+    },
+]        
+}

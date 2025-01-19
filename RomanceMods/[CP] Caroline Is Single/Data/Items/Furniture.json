@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "TileSheets/Hitme.CarolineIsSingle_CarolinePortrait",
+            "FromFile": "Assets/Items/Furniture/CarolinePortrait.png",
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "Hitme.CarolineIsSingle_CarolinePortrait": "CarolinePortrait/painting/2 2/2 2/1/999/-1/{{i18n:Caroline.Portrait}}/0/TileSheets\\Hitme.CarolineIsSingle_CarolinePortrait/true"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
+            "Entries": {
+                "Hitme.CarolineIsSingle_CarolinePortrait":{
+                    "Price": 30000,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": "PLAYER_HEARTS Current Caroline 14",
+                    "Id": "(F)Hitme.CarolineIsSingle_CarolinePortrait",
+                    "ItemId": "(F)Hitme.CarolineIsSingle_CarolinePortrait",
+                    "IsRecipe": false,
+                    "StackModifierMode": "Stack",
+                    "QualityModifierMode": "Stack",
+                }
+            },    
+        },
+    ]
+}

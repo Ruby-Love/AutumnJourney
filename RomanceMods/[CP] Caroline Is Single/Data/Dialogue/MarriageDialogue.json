@@ -1,0 +1,234 @@
+{
+	"Changes": 
+	[
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"FromFile": "Data/blank.json"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries":
+				{
+				//SPECIAL DIALOGUE
+				"spouseRoom_Caroline": "{{Random:{{i18n:MarriageCaroline.spouseRoom.1}}@@{{i18n:MarriageCaroline.spouseRoom.2}}@@{{i18n:MarriageCaroline.spouseRoom.3}}@@{{i18n:MarriageCaroline.spouseRoom.4}}@@{{i18n:MarriageCaroline.spouseRoom.5}}@@{{i18n:MarriageCaroline.spouseRoom.6}}|inputSeparator=@@}}",
+				"patio_Caroline": "{{i18n:MarriageCaroline.patio}}",
+				//EVERYDAY DIALOGUE
+				"Rainy_Day_0": "{{i18n:MarriageCaroline.RainyDay.0}}",
+				"Rainy_Day_1": "{{i18n:MarriageCaroline.RainyDay.1}}",
+				"Rainy_Day_2": "{{i18n:MarriageCaroline.RainyDay.2}}",
+				"Rainy_Day_3": "{{i18n:MarriageCaroline.RainyDay.3}}",
+				"Rainy_Day_4": "{{i18n:MarriageCaroline.RainyDay.4}}",
+				"Rainy_Day_5": "{{i18n:MarriageCaroline.RainyDay.5}}",
+				"Rainy_Day_6": "{{i18n:MarriageCaroline.RainyDay.6}}",
+				
+				"Rainy_Night_0": "{{i18n:MarriageCaroline.RainyNight.0}}",
+				"Rainy_Night_1": "{{i18n:MarriageCaroline.RainyNight.1}}",
+				"Rainy_Night_2": "{{i18n:MarriageCaroline.RainyNight.2}}",
+				"Rainy_Night_3": "{{i18n:MarriageCaroline.RainyNight.3}}",
+				"Rainy_Night_4": "{{i18n:MarriageCaroline.RainyNight.4}}",
+				"Rainy_Night_5": "{{i18n:MarriageCaroline.RainyNight.5}}",
+				"Rainy_Night_6": "{{i18n:MarriageCaroline.RainyNight.6}}",
+			
+				"Indoor_Day_0": "{{i18n:MarriageCaroline.IndoorDay.0}}",
+				"Indoor_Day_1": "{{i18n:MarriageCaroline.IndoorDay.1}}",
+				"Indoor_Day_2": "{{i18n:MarriageCaroline.IndoorDay.2}}",
+				"Indoor_Day_3": "{{i18n:MarriageCaroline.IndoorDay.3}}",
+				"Indoor_Day_4": "{{i18n:MarriageCaroline.IndoorDay.4}}",
+				"Indoor_Day_5": "{{i18n:MarriageCaroline.IndoorDay.5}}",
+				"Indoor_Day_6": "{{i18n:MarriageCaroline.IndoorDay.6}}",
+			
+				"Indoor_Night_0": "{{i18n:MarriageCaroline.IndoorNight.0}}",
+				"Indoor_Night_1": "{{i18n:MarriageCaroline.IndoorNight.1}}",
+				"Indoor_Night_2": "{{i18n:MarriageCaroline.IndoorNight.2}}",
+				"Indoor_Night_3": "{{i18n:MarriageCaroline.IndoorNight.3}}",
+				"Indoor_Night_4": "{{i18n:MarriageCaroline.IndoorNight.4}}",
+				"Indoor_Night_5": "{{i18n:MarriageCaroline.IndoorNight.5}}",
+				"Indoor_Night_6": "{{i18n:MarriageCaroline.IndoorNight.6}}",
+			
+				"Outdoor_0": "{{i18n:MarriageCaroline.Outdoor.0}}",
+				"Outdoor_1": "{{i18n:MarriageCaroline.Outdoor.1}}",
+				"Outdoor_3": "{{i18n:MarriageCaroline.Outdoor.3}}",
+				"Outdoor_4": "{{i18n:MarriageCaroline.Outdoor.4}}",
+				"Outdoor_5": "{{i18n:MarriageCaroline.Outdoor.5}}",
+				"Outdoor_6": "{{i18n:MarriageCaroline.Outdoor.6}}",
+				"funLeave_Caroline": "{{i18n:MarriageCaroline.funLeave_Caroline.0}}",
+				"funReturn_Caroline": "{{i18n:MarriageCaroline.funReturn_Caroline.0}}",
+				"OneKid_0": "{{i18n:MarriageCaroline.OneKid.0}}",
+				"OneKid_1": "{{i18n:MarriageCaroline.OneKid.1}}",
+				"OneKid_2": "{{i18n:MarriageCaroline.OneKid.2}}",
+				"OneKid_3": "{{i18n:MarriageCaroline.OneKid.3}}",
+				"TwoKids_0": "{{i18n:MarriageCaroline.TwoKids.0}}",
+				"TwoKids_1": "{{i18n:MarriageCaroline.TwoKids.1}}",
+				"Good_0": "{{i18n:MarriageCaroline.Good.0}}",
+				"Good_1": "{{i18n:MarriageCaroline.Good.1}}",
+				"Good_2": "{{i18n:MarriageCaroline.Good.2}}",
+				"Good_3": "{{i18n:MarriageCaroline.Good.3}}",
+				"Good_4": "{{i18n:MarriageCaroline.Good.4}}",
+				//"Good_5": "{{i18n:MarriageCaroline.Good.5}}",
+				//"Good_6": "{{i18n:MarriageCaroline.Good.6}}",
+				"Neutral_0": "{{i18n:MarriageCaroline.Neutral.0}}",
+				"Neutral_1": "{{i18n:MarriageCaroline.Neutral.1}}",
+				"Bad_0": "{{i18n:MarriageCaroline.Bad.0}}",
+				"Bad_1": "{{i18n:MarriageCaroline.Bad.1}}",
+				//SPECIAL DAY DIALOGUES
+				"spring_1": "{{i18n:MarriageCaroline.spring_1}}",
+				"spring_3": "{{i18n:MarriageCaroline.spring_3}}",
+				"spring_12": "{{i18n:MarriageCaroline.spring_12}}",
+				"spring_23": "{{i18n:MarriageCaroline.spring_23}}",
+
+				"summer_1": "{{i18n:MarriageCaroline.summer_1}}",
+				"summer_10": "{{i18n:MarriageCaroline.summer_10}}",
+				"summer_18": "{{i18n:MarriageCaroline.summer_18}}",
+				"summer_27": "{{i18n:MarriageCaroline.summer_27}}",
+
+				"fall_1": "{{i18n:MarriageCaroline.fall_1}}",
+				"fall_15": "{{i18n:MarriageCaroline.fall_15}}",
+				"fall_26": "{{i18n:MarriageCaroline.fall_26}}",
+
+				"winter_1": "{{i18n:MarriageCaroline.winter_1}}",
+				"winter_7": "{{i18n:MarriageCaroline.winter_7}}",
+				"winter_24": "{{i18n:MarriageCaroline.winter_24}}",
+				"winter_28": "{{i18n:MarriageCaroline.winter_28}}",
+			},
+		}
+
+		/*//CONDITIONAL DIALOGUE
+		//CYCLE Caroline SPOUSE ROOM DIALOGUE
+		
+		//SPRING 1
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"spouseRoom_Caroline": "{{i18n:MarriageCaroline.spring_1}}"
+			},
+			"When": {
+				"Day": "1",
+				"Season": "Spring"
+			}
+		},
+
+		//SPRING 2
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"spouseRoom_Caroline": "{{i18n:MarriageCaroline.spring_2}}"
+			},
+			"When": {
+				"Day": "2",
+				"Season": "Spring"
+			}
+		},
+
+		//SPRING 3
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"spouseRoom_Caroline": "{{i18n:MarriageCaroline.spring_3}}"
+			},
+			"When": {
+				"Day": "3",
+				"Season": "Spring"
+			}
+		},
+
+		//SUMMER 1
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"spouseRoom_Caroline": "{{i18n:MarriageCaroline.summer_1}}"
+			},
+			"When": {
+				"Day": "1",
+				"Season": "Summer"
+			}
+		},
+
+		//SUMMER 4
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"spouseRoom_Caroline": "{{i18n:MarriageCaroline.summer_4}}"
+			},
+			"When": {
+				"Day": "4",
+				"Season": "Summer"
+			}
+		},
+
+		//FALL 1
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"spouseRoom_Caroline": "{{i18n:MarriageCaroline.fall_1}}"
+			},
+			"When": {
+				"Day": "1",
+				"Season": "Fall"
+			}
+		},
+
+		//CYCLE FUN LEAVE & FUN RETURN DIALOGUE
+		//SPAGHETTI GIFTS
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"funLeave_Caroline": "{{i18n:MarriageCaroline.funLeave_Caroline.1}}",
+				"funReturn_Caroline": "{{i18n:MarriageCaroline.funReturn_Caroline.2}}",
+			},
+			"When": {
+				"Day": "2,25"
+			}
+		},
+
+		//FIRST DAY OF SEASON FORAGING GIFTS
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"funLeave_Caroline": "{{i18n:MarriageCaroline.funLeave_Caroline.1}}",
+				"funReturn_Caroline": "{{i18n:MarriageCaroline.funReturn_Caroline.3}}[{{ForageHarvest}}]",
+			},
+			"When": {
+				"Day": "1",
+				"Season": "{{season}}"
+			}
+		},
+
+		//AEROBIC DAY
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"funLeave_Caroline": "{{i18n:MarriageCaroline.funLeave_Caroline.Aerobic.1}}",
+				"funReturn_Caroline": "{{i18n:MarriageCaroline.funReturn_Caroline.Aerobic.1}}",
+			},
+			"When": {
+				"DayOfWeek": "Tuesday",
+			}
+		},
+		
+		//COFFEE EVERY TUESDAY 9
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueCaroline",
+			"Entries": {
+				"funLeave_Caroline": "{{i18n:MarriageCaroline.funLeave_Caroline.Aerobic.2}}",
+				"funReturn_Caroline": "{{i18n:MarriageCaroline.funReturn_Caroline.Aerobic.2}}",
+			},
+			"When": {
+				"DayOfWeek": "Tuesday",
+				"Day": "9"
+			}
+		},*/
+	]
+}

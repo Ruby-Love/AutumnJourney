@@ -1,0 +1,175 @@
+{
+"Changes": [
+    //Precondition: has SCO
+    //New code
+    {
+        "Action": "EditImage",
+        "Priority": "Default+1",
+        "Target": "Portraits/Caroline_Spring, Portraits/Caroline_Summer, Portraits/Caroline_Fall, Portraits/Caroline_Winter_Outdoor, Portraits/Caroline_Winter_Indoor, , Portraits/Caroline_Aerobics, Characters/Caroline_Spring, Characters/Caroline_Summer, Characters/Caroline_Fall, Characters/Caroline_Winter_Outdoor, Characters/Caroline_Winter_Indoor, Characters/Caroline_SpiritsEve, Characters/Caroline_Aerobics",
+        "FromFile": "Assets/{{TargetPathOnly}}/Seasonal/{{TargetWithoutPath}}.png", 
+    },
+
+    {
+        "Action": "EditImage",
+        "Priority": "Default+2",
+        "Target": "Characters/Caroline_Spring, Characters/Caroline_Summer, Characters/Caroline_Fall, Characters/Caroline_Winter_Outdoor, Characters/Caroline_Winter_Indoor, Characters/Caroline_FlowerDance, Characters/Caroline_SpiritsEve, Characters/Caroline_Aerobics",
+        "FromFile": "Assets/{{TargetPathOnly}}/Seasonal/Caroline_Nose.png",
+        "PatchMode": "Overlay",
+    },
+
+    //Old code
+    /*
+    //SEASONAL SPRITES
+    {
+        "Action": "EditImage",
+		"Target": "Characters/Caroline",
+		"FromFile": "Assets/Sprites/Seasonal/Caroline_{{season}}.png",
+        "When":
+        {
+            "Season": "Summer, Fall, Spring"
+        },
+        "Update": "OnLocationChange",
+    },
+
+    //SEASONAL PORTRAITS
+    {
+        "Action": "EditImage",
+		"Target": "Portraits/Caroline",
+		"FromFile": "Assets/Portraits/Seasonal/Caroline_{{season}}.png",
+        "When":
+        {
+            "Season": "Summer, Fall, Spring",
+            "CarolinePortraitsCompatibilitySwitch": "Off"
+        },
+        "Update": "OnLocationChange",
+    },
+
+    //WINTER INDOOR
+    {
+        "Action": "EditImage",
+		"Target": "Characters/Caroline_Winter",
+		"FromFile": "Assets/Sprites/Seasonal/{{TargetWithoutPath}}_Indoor.png",
+        "When":
+        {
+            "IsOutdoors": "false",
+            "Season": "Winter"
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late",
+    },
+
+
+    {
+        "Action": "EditImage",
+		"Target": "Portraits/Caroline_Winter",
+		"FromFile": "Assets/Portraits/Seasonal/{{TargetWithoutPath}}_Indoor.png",
+        "When":
+        {
+            "IsOutdoors": "false",
+            "Season": "Winter",
+            "CarolinePortraitsCompatibilitySwitch": "Off"
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late",
+    },
+
+    //WINTER OUTDOOR
+    {
+        "Action": "EditImage",
+		"Target": "Characters/Caroline_Winter",
+		"FromFile": "Assets/Sprites/Seasonal/{{TargetWithoutPath}}_Outdoor.png",
+        "When":
+        {
+            "IsOutdoors": "true",
+            "Season": "Winter",
+        },
+        "Update": "OnLocationChange",
+    },
+
+    {
+        "Action": "EditImage",
+		"Target": "Portraits/Caroline_Winter",
+		"FromFile": "Assets/Portraits/Seasonal/{{TargetWithoutPath}}_Outdoor.png",
+        "When":
+        {
+            "IsOutdoors": "true",
+            "Season": "Winter",
+            "CarolinePortraitsCompatibilitySwitch": "Off"
+        },
+        "Update": "OnLocationChange",
+    },
+
+
+    //FESTIVALS
+    {
+        "Action": "EditImage",
+        "Target": "Characters/Caroline",
+        "FromFile": "Assets/Sprites/Seasonal/Caroline_{{Festival}}.png",
+        "Update": "OnLocationChange",
+    },
+
+    {
+        "Action": "EditImage",
+        "Target": "Portraits/Caroline",
+        "FromFile": "Assets/Portraits/Seasonal/Caroline_{{Festival}}.png",
+        "Update": "OnLocationChange",
+        "When": {
+            "CarolinePortraitsCompatibilitySwitch": "Off"
+        }
+    },
+
+    //AEROBICS
+    {
+        "Action": "EditImage",
+		"Target": "Characters/Caroline, Characters/Caroline_Winter",
+		"FromFile": "Assets/Sprites/Seasonal/Caroline_Aerobics.png",
+        "When":
+        {
+            "DayOfWeek": "Tuesday",
+            "LocationName": "SeedShop",
+            "Weather": "sun, wind, snow",
+        },
+        "Update": "OnLocationChange",
+    },
+
+    {
+        "Action": "EditImage",
+		"Target": "Portraits/Caroline",
+		"FromFile": "Assets/Portraits/Seasonal/Caroline_Aerobics.png",
+        "When": {
+            "DayOfWeek": "Tuesday",
+            "LocationName": "SeedShop",
+            "Weather": "sun, wind, snow",
+            "CarolinePortraitsCompatibilitySwitch": "Off"
+        },
+        "Update": "OnLocationChange",
+    },
+
+    //WEDDING SPRITES
+    {
+        "Action": "EditImage",
+        "Target": "Characters/Caroline, Characters/Caroline_Winter",
+        "FromFile": "Assets/Sprites/Seasonal/Caroline_Marriage.png",
+        "When": {
+            "DayEvent": "wedding",
+            "LocationName": "Town",
+            "Relationship:Caroline": "Engaged, Married",
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Default+1",
+    },
+
+    //NOSE OVERLAY
+    {
+        "Action": "EditImage",
+        "Target":"Characters/Caroline, Characters/Caroline_Winter",
+        "FromFile": "Assets/Sprites/Seasonal/Caroline_Nose.png",
+        "PatchMode": "Overlay",
+        "When":
+            {
+                "SeasonalCarolineNose": "On"
+            },
+        "Priority": "Default+2",    
+    }*/
+]
+}
