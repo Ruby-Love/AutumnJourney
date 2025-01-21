@@ -1,0 +1,19 @@
+{
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/teabushes",
+		"FromFile": "assets/Compat/Cornucopia/{{Stage}}/teabushes_{{Season}}.png",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"When": {"Season": "winter, spring"}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_winter",
+		"FromFile": "assets/Compat/Cornucopia/{{Stage}}/{{TargetWithoutPath}}.png",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+	},
+	]
+}

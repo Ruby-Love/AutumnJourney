@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreFlowers/teabushes",
+		"FromFile": "assets/Compat/Cornucopia/{{Stage}}/teabushes_winter_flowers.png",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"When": {"Season": "winter"}
+	},
+	]
+}

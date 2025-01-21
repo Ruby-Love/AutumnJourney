@@ -1,0 +1,94 @@
+{
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_SVE_Tilesheet2, Maps/spring_SVE_Tilesheet2",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/SVE/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_GrampletonSuburbsTilesheet, Maps/winter_MorrisModernHouse, Maps/winter_ShearwaterBridgeRenovated, Maps/winter_SVE_Tilesheet2, Maps/winter_z_extras",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"PatchMode": "Overlay",
+		"Update": "OnLocationChange",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/winter_outdoors.png",
+		"When":{"Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SeasonalEdits": "true", "IsOutdoors": "true"}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence1",
+		"PatchMode": "Overlay",
+		"Update": "OnLocationChange",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/FenceSnow_Default.png",
+		"When":{"IsOutdoors": "true", "Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SeasonalEdits": "true", "LocationName |contains=IslandWest": "false","Season": "winter"}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence5",
+		"PatchMode": "Overlay",
+		"Update": "OnLocationChange",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/FenceSnow_Default.png",
+		"When":{"IsOutdoors": "true", "Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SeasonalEdits": "true", "LocationName |contains=IslandWest": "false","Season": "winter"}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_town",
+		"Update": "OnLocationChange",
+		"PatchMode": "Overlay",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/winter_town.png",
+		"When":{"IsOutdoors": "true", "Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SeasonalEdits": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"Update": "OnLocationChange",
+		"PatchMode": "Overlay",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/DebrisSnow.png",
+		"When":{"IsOutdoors": "true", "Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SeasonalEdits": "true",
+		"LocationName |contains=Farm, Forest, Mountain, Custom_Garden, Custom_GrandpasShedOutside": "true", "Season": "Winter"}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Tilesheets/crops",
+		"Update": "OnLocationChange",
+		"PatchMode": "Overlay",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/SnowyDeadCrops.png",
+		"When":{"IsOutdoors": "true", "Spiderbuttons.CMCT/Config: FlashShifter.StardewValleyExpandedCP, SeasonalEdits": "true",
+		"LocationName |contains=IslandWest, Island_W": "false", "Season": "Winter"},
+		"ToArea": {
+			"X": 192,
+			"Y": 400,
+			"Width": 64,
+			"Height": 16},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/spring_Birch_Tree, Mods/FlashShifter.StardewValleyExpandedCP/winter_Birch_Tree, Mods/FlashShifter.StardewValleyExpandedCP/winter_Fir_Tree",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/summer_Birch_Tree",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/SVE/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/SVEFruitTrees",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/SVE/{{Stage}}/SVE_Fruit_Trees.png",
+	}
+	]
+}

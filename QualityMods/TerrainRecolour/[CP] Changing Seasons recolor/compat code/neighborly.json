@@ -1,0 +1,326 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/houses",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/farmhouse_simple_{{season}}.png",
+			"When": {"Season": "winter, spring, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Farmhouse Decor": "false"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/houses",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/farmhouse_decor_{{season}}.png",
+			"When": {"Season": "winter, spring, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Farmhouse Decor": "true"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Greenhouse",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Greenhouse_flat_wood_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Greenhouse Style": "Box and Wood" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Greenhouse",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Greenhouse_flat_steel_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Greenhouse Style": "Box and Steel" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Greenhouse",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Greenhouse_dome_wood_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Greenhouse Style": "Dome and Wood" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Greenhouse",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Greenhouse_dome_steel_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Greenhouse Style": "Dome and Steel" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Fish Pond",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Pond__{{season}}.png",
+			"When":{"Season": "winter, fall"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Stable",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/horse_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Stable Style": "Horse" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Stable",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/garage_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Stable Style": "Garage" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Stable",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/broom_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Stable Style": "Toolshed" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Big Barn",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/BigBarn_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Well",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Well_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Barn",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Barn_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Big Coop",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/BigCoop_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Coop",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Coop_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Slime Hutch",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/SlimeHutch_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Deluxe Barn",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/DeluxeBarn_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Shed",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Shed__{{season}}.png",
+			"When":{"Season": "winter, fall, spring",}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Big Shed",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/BigShed__{{season}}.png",
+			"When":{"Season": "winter, fall, spring",}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Silo",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/SiloA_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Silo Style": "A" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Silo",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/SiloB_winter.png",
+			"When": {"Season": "winter", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Silo Style": "B" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Mill",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Mill_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Neighbor Cabin",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/Cabin_winter.png",
+			"When":{"Season": "winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Deluxe Coop",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"FromFile": "assets/Compat/Neighborly/{{Stage}}/DeluxeCoop_winter.png",
+			"When":{"Season": "winter"}
+		},
+
+//neighborly obelisks
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Junimo Hut",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/texture.png",
+		"When":{"Season": "winter"}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Earth Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Forest_simple_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations,Obelisk Decor": "false" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Earth Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Forest_decor_{{season}}.png",
+			"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Water Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/BeachObelisk_simple_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "false" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Water Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/BeachObelisk_decor_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Island Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Island_simple_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "false" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Island Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Island_decor_{{season}}.png",
+			"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Desert Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Desert_simple_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "false" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Desert Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Desert_decor_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/RSV Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Ridge_simple_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "false" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/RSV Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Ridge_decor_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Scarp_Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Scarp_simple_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "false" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/Scarp_Obelisk",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Scarp_decor_{{season}}.png",
+		"When": {"Season": "winter, fall", "Spiderbuttons.CMCT/Config: cajcbell.Foundations, Obelisk Decor": "true" }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/SVE_Winery",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/Winery_winter.png",
+		"When":{"Season": "winter",}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/SVE_PremiumCoop",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/PremiumCoop_winter.png",
+		"When":{"Season": "winter",}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Buildings/SVE_PremiumBarn",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Neighborly/{{Stage}}/PremiumBarn_winter.png",
+		"When":{"Season": "winter",}
+	},
+	]
+}

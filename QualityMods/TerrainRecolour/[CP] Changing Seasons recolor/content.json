@@ -1,0 +1,220 @@
+{
+	"Format": "2.4.0",
+	"DynamicTokens":[
+		{
+		"Name": "Stage",
+		"Value": "Early",
+		"When": { "day" : "1, 2, 3, 4, 5, 6, 7"},
+		},
+		{
+		"Name": "Stage",
+		"Value": "True",
+		"When": { "day" : "8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21"}
+		},
+		{
+		"Name": "Stage",
+		"Value": "Late",
+		"When": { "day" : "22, 23, 24, 25, 26, 27, 28"}
+		}
+		],
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_beach, Maps/summer_beach, Maps/fall_beach, Maps/winter_beach",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",
+			"Priority": "Early",
+			"Update": "OnLocationChange",	
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_island_tilesheet_1, Maps/summer_island_tilesheet_1, Maps/fall_island_tilesheet_1, Maps/winter_island_tilesheet_1",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_monsterGraveTiles, Maps/summer_monsterGraveTiles, Maps/fall_monsterGraveTiles, Maps/winter_monsterGraveTiles",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet, Maps/summer_outdoorsTileSheet, Maps/fall_outdoorsTileSheet, Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet2, Maps/summer_outdoorsTileSheet2, Maps/fall_outdoorsTileSheet2, Maps/winter_outdoorsTileSheet2",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorTileSheet_extra, Maps/summer_outdoorTileSheet_extra, Maps/fall_outdoorTileSheet_extra, Maps/winter_outdoorTileSheet_extra",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_town, Maps/summer_town, Maps/fall_town, Maps/winter_town",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/tree1_spring, TerrainFeatures/tree1_summer, TerrainFeatures/tree1_fall, TerrainFeatures/tree1_winter",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/tree2_spring, TerrainFeatures/tree2_summer, TerrainFeatures/tree2_fall, TerrainFeatures/tree2_winter",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/tree3_spring, TerrainFeatures/tree3_fall, TerrainFeatures/tree3_winter",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+			"When": {"Season": "summer, winter, fall"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/tree8_spring, TerrainFeatures/tree8_summer, TerrainFeatures/tree8_fall, TerrainFeatures/tree8_winter",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/tree1_greenRain_winter, TerrainFeatures/tree2_greenRain_winter, TerrainFeatures/tree3_greenRain_winter",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/hoeDirtSnow",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/cowPhotosWinter",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/grass",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Replace",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Festivals.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/bushes",
+			"FromFile": "assets/{{Stage}}/{{Target}}.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+			"When": {"Season": "summer, fall, winter"}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/springobjects.png",
+			"Patchmode": "Overlay",	
+			"Priority": "Early",
+			"Update": "OnLocationChange",
+		},
+//sve compat
+	{
+		"Action": "Include",
+		"FromFile": "compat code/SVE.json",
+		"When":{"HasMod":"FlashShifter.StardewValleyExpandedCP"}
+	},
+//simple foliage compat
+	{
+		"Action": "Include",
+		"FromFile": "compat code/Simple_foliage.json",
+		"When":{"HasMod":"Az.Foliage"}
+	},
+//simple resources compat
+	{
+		"Action": "Include",
+		"FromFile": "compat code/Simple_resources.json",
+		"When":{"HasMod":"Az.Resources"}
+	},
+//Cornucopia compat
+	{
+		"Action": "Include",
+		"FromFile": "compat code/Cornucopia_crops.json",
+		"When":{"HasMod":"Cornucopia.MoreCrops"}
+	},
+	{
+		"Action": "Include",
+		"FromFile": "compat code/Cornucopia_flowers.json",
+		"When":{"HasMod":"Cornucopia.MoreFlowers"}
+	},
+//neighborly compat
+	{
+		"Action": "Include",
+		"FromFile": "compat code/neighborly.json",
+		"When":{"HasMod":"cajcbell.Foundations"}
+	},
+//rsv compat
+	{
+		"Action": "Include",
+		"FromFile": "compat code/RSV.json",
+		"When":{"HasMod":"Rafseazz.RSVCP"}
+	},
+		]
+		}

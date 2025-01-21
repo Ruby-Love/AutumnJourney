@@ -1,0 +1,27 @@
+{
+  "Name": "Changing seasons recolor",
+  "Author": "ralmuce",
+  "Version": "1.0.1",
+  "Description": "12 seasons foliage/grass/snow recolor",
+  "UniqueID": "Ra.Seasons",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [
+   {
+      "UniqueID": "Az.Foliage",
+      "IsRequired": false
+   },
+	{
+	"UniqueID": "Spiderbuttons.CMCT"
+	},
+	{
+      "UniqueID": "ajcbell.Foundations",
+      "IsRequired": false
+   },
+	{
+	"UniqueID":"FlashShifter.StardewValleyExpandedCP",
+	"IsRequired": false
+	}
+   ]
+}

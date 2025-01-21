@@ -1,0 +1,68 @@
+{
+  "channelInfos": [
+    {
+		"Channelkey": "stardew_news",
+		"ChannelName": "Stardew News",
+		"ChannelDescription": "I'm your host, Jo, and I'm here to announce today's news in the Stardew Region.",
+		"ShowDays":"AllDays",
+		"ChannelType":{
+			"currentChannel": 3838,
+			"ScreenFile":"assets/Mod_Namescreen.png",
+			"animation":{
+				"AnimationInterval": 150,
+				"AnimationLength":2
+			},
+			"ad":{
+				"RandomQuestion":{
+					"10301":{"QuestionText":"Unidentified man steals 1000 gold from passed out farmer in Stardew Cliffs. 'I briefly saw an old man with a thick, white beard and yellowish ragged clothes before I passed out! I think it's him!' she says." },
+					"10302":{"QuestionText":"Loud explosion noises occurs at Joja Mega Mart. CEO affirms that there were 0 injuries." },
+					"10303":{"QuestionText":"A flock of crows eats half of local farmers' cropland in Stardew Cliffs. Experts recommend farmers to buy scarecrows" },
+					"10304":{"QuestionText":"Red rain falls upon Stardew Mountains. It is recommended for all to stay at home." },
+					"10305":{"QuestionText":"Local bear gives children pizzas. 'It tastes like cardboard...' a child comments." },
+					"10306":{"QuestionText":"Dozens of trucks seen throwing trash into the ocean. A woman claims that it was a truck from Joj-" },
+					"10307":{"QuestionText":"Wallsy releases another new album and goes #1 in the song charts." },
+					"10308":{"QuestionText":"A witch was seen flying on a broom in the sky. 'She is so beautiful...' a purple haired-wizard comments. Oh, he disappeared." },
+					"10309":{"QuestionText":"Thief attempts to steal diamond from the Stardew Bank before getting arrested by police. The bamk assures that it will not happen again." },
+					"10308":{"QuestionText":"Ape from Stardew Zoo seen programming on laptop. Visitors are concerned, but zookeepers assure that it is normal." },
+					"10309":{"QuestionText":"Woman from Stardew Valley gets arrested again for dumping tons of broken glasses into the ocesn. She claims to have more hidden." },
+					"10310":{"QuestionText":"Tornado sweeps up homes in Stardew Cliffs. The mayor promises to pay for all damages." },
+					"10311":{"QuestionText":"Teenage boy crashes his motorcyle into local's property before driving away. Police are working hard to find the boy." },
+					"10312":{"QuestionText":"Old man lashes out at fortune teller for cursing him. 'I didn't curse him.' she says. 'It was just bad luck from the spirits'." },
+					"10313":{"QuestionText":"Farmer gets exiled from Stardew Cliffs for dating 13 people at once. 'I have no idea how we didn't notice it before.' a woman comments." },
+					"10314":{"QuestionText":"Blocky man seen flying around holding cubes. He allegedly built a purple portal before disappearing into it." },
+					"10315":{"QuestionText":"Cat goes viral for sleeping on the floor. 'It's so inspiring', a user comments." },
+					"10316":{"QuestionText":"Rats found scurrying in Joja Mega Mart. The CEO promises to take care of the issue." },
+					"10317":{"QuestionText":"Crazy man throws peas at people. 'Blallelough!' he exclaims. He has been arrested by the police." },
+					"10318":{"QuestionText":"Green storm shuts down all electricity in Stardew Mountains. For those in the affected area, it is recommended to stay at home today." },
+					"10319":{"QuestionText":"Fire breaks out in Zuzu City and burns down 2 buildings. Fortunately, there were no casualties." },
+					"10320":{"QuestionText":"Opera singer gets bashed for claiming to be able to break a wine glass. 'She just used a hammer...', someone says" },
+					"10321":{"QuestionText":"College boy eats 72 eggs in one bite. 'It helps me in gridball', he says." },
+					"10322":{"QuestionText":"Earthquake occurs in Stardew Cliffs, causing a landslide and destroying 12 homes." },
+					"10323":{"QuestionText":"Man from Stardew Mountains becomes first blind man to successfully climb to the top Mount Everest." },
+					"10324":{"QuestionText":"Woman throws tantrum in the streets after trying to buy computer online, turns out to just be a picture of a computer." },
+					"10325":{"QuestionText":"Divers allegedly spotted a sponge and starfish catching jellyfish. They were unable to take any pictures as they got chased away by an octopus and a crab." },
+					"10326":{"QuestionText":"Stardew International School bans popular social media platform, Zik Zook. Students are outraged." },
+					"10327":{"QuestionText":"Monsters seen escaping Stardew Mines. The mayor claims that they have it under control. 'I think I saw a dwarf', a woman claims.'" },
+					"10328":{"QuestionText":"Singing woman attracts birds. 'She's like a princess', an onlooker says." },
+					"10329":{"QuestionText":"Man from Stardew Creaks touches radiactive liquid and gets severely sick. 'Where's my power?' he asks." },
+					"10330":{"QuestionText":"Forests in Stardew Cliffs getting cut down by farmer. 'I need a barn', he says." },
+					"10331":{"QuestionText":"Abandoned building in Stardew Cliffs gets overtaken by 'apple' creatures." },
+					"10332":{"QuestionText":"Joja pulls 'Joja Water' off shelves. They promise to bring the product back better than ever in the future." },
+					"10333":{"QuestionText":"Joja gets into another controversy as Joja truck was seen throwing 'sleeping' people out-" },
+					"10334":{"QuestionText":"Crazy man chases after people demanding them to visit his general store. He narrowly escapes police." },
+					"10335":{"QuestionText":"Woman from Stardew Creaks still standing in front of fridge since 2013. A construction worker comments, 'We tried moving her, but she's literally like an unmovable rock.'" },
+					"10336":{"QuestionText":"Artist gets criticized by other artists. 'She improved her artwork within a year, how despicable!' an online user comments." },
+					"10337":{"QuestionText":"Travelling merchant allegedly seen flying into Stardew Cliffs with her pig. 'I have no idea how that pig flew, I'm not crazy.' the crazy woman says." },
+					"10338":{"QuestionText":"Farmer from Stardew Cliffs claims to have seen fairy fertilizing crops at night." },
+					"10339":{"QuestionText":"Pirate seen dropping thousands of chests into the oceans. He escapes police again." },
+					"10340":{"QuestionText":"UFO was seen flying in the sky in Stardew Mountains." },
+					"10341":{"QuestionText":"The then-violent grandma who carried a bat speaks up about her past. 'I'm happy to have changed into a better person. I bake cakes now.', she says." },
+				},
+				"Select1" : "Okay.",
+				"Select2" : "..."
+			}
+		}
+	}
+  
+  ]
+}

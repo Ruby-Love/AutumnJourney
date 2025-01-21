@@ -1,0 +1,53 @@
+{
+	"Changes":[
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_zridgetiles, Maps/winter_zridgetiles",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_zridgeside",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_zridgesidebuildings",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_zrsvcablecar",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_zrsvcliffhouse",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_zrsvbettersquare",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_zrsvwideview, Maps/winter_zrsvwideviewnight",
+		"PatchMode": "Overlay",
+		"Priority": "Late",
+		"FromFile": "assets/Compat/Ridgeside/{{Stage}}/{{TargetWithoutPath}}.png",
+	},
+	]
+}
